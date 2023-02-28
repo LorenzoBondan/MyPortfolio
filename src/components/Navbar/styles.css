@@ -23,9 +23,17 @@
 .main-menu {
     display: flex;
     font-size: 20px;
-    width: 380px; 
+    width: 480px; 
     justify-content: space-between;
     color: #ffffff;
+}
+
+.navbar-menu-items-container a:hover{
+    color: #ff0052 !important;
+}
+
+.active{
+    color: #ff0052 !important;
 }
 
 .navbar-social-content-container{
@@ -50,7 +58,7 @@
     width: 42px;
     height: 42px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #ff0052;
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -66,6 +74,8 @@
 	transition: 0.3s ease-in-out;
 }
 
+/*
 .navbar-social-content-container a:hover img {
     filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+*/
