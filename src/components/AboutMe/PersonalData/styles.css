@@ -1,0 +1,66 @@
+.personal-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-data-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid white;
+    width: 260px;
+    background-color: #121212;
+}
+
+.personal-data-container h2{
+    margin-bottom: 20px;
+    flex: 1;
+    border-bottom: 1px solid silver;
+}
+
+.personal-data-container h4{
+    font-weight: 400;
+    color: #646464;
+    font-size: 18px;
+}
+
+.personal-data-container span{
+    color: white;
+    font-weight: 400;
+}
+
+.college-container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.college-card {
+    padding: 10px 0px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.college-card-img{
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.college-card-img img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+.about-container{
+    padding: 0px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff0052 -100%, #121212 50%);
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-personal-data-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
