@@ -2,6 +2,7 @@
     position: fixed;
     padding: 18px;
     width: 100%;
+    height: 80px;
     z-index: 9999;
     transition: 0.32 ease-in-out;
 }
@@ -11,13 +12,21 @@
     background-color: #121212;
 }
 
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .navbar-brand a {
     font-weight: 700;
     font-size: 24px;
 }
 
-.navbar-brand-icon{
+.navbar-brand-icon img{
+    margin-left: 20px;
     margin-right: 8px;
+    height: 26px;
 }
 
 .main-menu {
