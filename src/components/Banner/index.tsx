@@ -42,7 +42,7 @@ const Banner = () => {
     }
 
     return(
-        <div className='banner-container'>
+        <div className='banner-container' id='banner'>
             
             <div className='banner-img-container '>
                 <img src="https://i.ibb.co/KwJyNfM/lorenzo.jpg" alt="" />

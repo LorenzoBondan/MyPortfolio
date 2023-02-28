@@ -1,0 +1,32 @@
+.skills-container{
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills-box{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #212121;
+    background-color: #111111;
+}
+
+.skills-box p{
+    color: #ff0052;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.skills-slider{
+    width: 900px;
+}
+
+.skills-slider img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
