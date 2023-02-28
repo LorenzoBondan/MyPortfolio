@@ -15,7 +15,7 @@
 }
 
 /* a fonte de todo o projeto é Open Sans */
-* {
+*, *::before, *::after{
     font-family: 'Centra', sans-serif;
     margin: 0;
     padding: 0;

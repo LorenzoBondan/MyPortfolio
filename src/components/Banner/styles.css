@@ -1,23 +1,36 @@
 .banner-container{
-    margin-top: 80px;
-    padding: 20px;
+    padding: 80px 80px 100px 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    background-image: url('assets/images/banner-background.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 15px #212121;
 }
 
 .banner-img-container {
     padding: 5px;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(255,255,255,0.5);
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+
 }
 
 .banner-img-container img{
     border-radius: 50%;
-    height: 425px;
-    width: 100%;
-    border: 5px solid rgba(255,255,255,0.5);
+    height: 95%;
+    width: 95%;
+    border: 1px solid rgba(255,255,255,0.5);
+    position: absolute;
 }
 
 .banner-content-container{
@@ -42,6 +55,46 @@
     font-style: italic;
     color: silver;
     margin-bottom: 80px;
+}
+
+.banner-content-container span{
+    color: #ff0052;
+}
+
+.banner-container button{
+    align-self: center;
+    width: 220px;
+    height: 40px;
+
+    background: transparent;
+    border: 1px solid white;
+    color: #ff0052;
+    font-weight: bold;
+}
+
+.banner-container button:hover{
+    color: #ff0052;
+}
+
+.banner-img-container::before {
+    content: "";
+    background-image: conic-gradient(
+        #ff0052 20deg,
+        transparent 120deg
+    );
+    width: 150%;
+    height: 150%;
+    position: relative;
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
 }
 
 

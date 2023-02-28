@@ -17,6 +17,7 @@ const Banner = () => {
         }, delta)
 
         return () => { clearInterval(ticker)};
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [delta, text])
 
     const tick = () => {
@@ -43,7 +44,7 @@ const Banner = () => {
     return(
         <div className='banner-container'>
             
-            <div className='banner-img-container base-card'>
+            <div className='banner-img-container '>
                 <img src="https://i.ibb.co/KwJyNfM/lorenzo.jpg" alt="" />
             </div>
 
@@ -58,7 +59,7 @@ const Banner = () => {
                     Help yourself to take a look!
                 </p>
 
-                <button className='btn btn-primary' onClick={() => console.log('connect')}>Contact Me</button>
+                <button className='btn btn-primary content-button' onClick={() => console.log('connect')}>Contact Me</button>
             </div>
 
         </div>
