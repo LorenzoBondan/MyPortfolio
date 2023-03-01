@@ -1,6 +1,9 @@
 .personal-container{
     display: flex;
     flex-direction: row;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #212121;
 }
 
 .personal-data-container{
@@ -9,14 +12,13 @@
     align-items: flex-start;
     padding: 20px;
     border-radius: 20px 0px 0px 20px;
-    border: 1px solid white;
+    border-right: 1px solid white;
     width: 260px;
     background-color: #121212;
 }
 
 .personal-data-container h2{
     margin-bottom: 20px;
-    flex: 1;
     border-bottom: 1px solid silver;
 }
 
@@ -31,10 +33,22 @@
     font-weight: 400;
 }
 
-.college-container{
+.education-and-experience-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.college-container, .professional-container{
     display: flex;
     flex-direction: row;
     padding: 30px;
+}
+
+.education-container h2{
+    margin-top: 20px;
 }
 
 .college-card {
@@ -48,7 +62,7 @@
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 .college-card-img{
@@ -63,4 +77,8 @@
     height: 250px;
     width: 250px;
     border-radius: 50%;
+}
+
+.marista{
+    border-radius: 10px !important;
 }
