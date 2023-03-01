@@ -9,6 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 5px 5px 15px #212121;
+    width: 100%;
 }
 
 .banner-img-container {
