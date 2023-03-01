@@ -2,6 +2,9 @@
 import { useEffect, useState } from 'react';
 import './styles.css';
 
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+
 const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
@@ -59,7 +62,16 @@ const Banner = () => {
                     Help yourself to take a look!
                 </p>
 
-                <button className='btn btn-primary content-button' onClick={() => console.log('connect')}>Contact Me</button>
+                <div style={{marginLeft:"280px"}}>
+                <TrackVisibility>
+                    {({ isVisible }) => (
+                        <div className={isVisible ? 'animate__animated animate__bounce banner-button-zone' : 'banner-button-zone'}>
+                            <button className='btn btn-primary content-button' onClick={() => console.log('connect')}>Download PDF CV</button>
+                        </div>
+                    )}    
+                </TrackVisibility>
+                </div>
+      
             </div>
 
         </div>

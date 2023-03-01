@@ -23,7 +23,6 @@
     align-items: center;
     height: 450px;
     width: 450px;
-
 }
 
 .banner-img-container img{
@@ -62,8 +61,15 @@
     color: #ff0052;
 }
 
-.banner-container button{
-    align-self: center;
+.banner-button-zone{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.banner-button-zone button{
+    align-self: center !important;
     width: 220px;
     height: 40px;
 
