@@ -45,7 +45,7 @@ const PersonalData = () => {
             <i>
               <BsCalendarDateFill />
             </i>
-            Age - <span>{ageCalc('1999-07-17')}</span>
+            <span>Age -  {ageCalc('1999-07-17')}</span>
           </h4>
 
           <h2 style={{ marginTop: '30px' }}>Languages</h2>
@@ -54,7 +54,7 @@ const PersonalData = () => {
               <img
                 src="https://em-content.zobj.net/thumbs/120/apple/325/flag-united-kingdom_1f1ec-1f1e7.png"
                 alt=""
-                style={{ height: '25px', marginRight: '5px' }}
+                style={{ height: '25px', marginRight: '8px' }}
               />
             </i>
             Advanced
@@ -64,7 +64,7 @@ const PersonalData = () => {
               <img
                 src="https://em-content.zobj.net/thumbs/120/apple/325/flag-spain_1f1ea-1f1f8.png"
                 alt=""
-                style={{ height: '25px', marginRight: '5px' }}
+                style={{ height: '25px', marginRight: '8px' }}
               />
             </i>
             Intermediate
@@ -74,7 +74,7 @@ const PersonalData = () => {
               <img
                 src="https://em-content.zobj.net/thumbs/120/apple/325/flag-brazil_1f1e7-1f1f7.png"
                 alt=""
-                style={{ height: '25px', marginRight: '5px' }}
+                style={{ height: '25px', marginRight: '8px' }}
               />
             </i>
             Native
@@ -88,6 +88,7 @@ const PersonalData = () => {
 
                   <div className="row">
                     <div className="college-container">
+                      
                       <div className="college-card col-sm-6 col-lg-4 col-xl-3">
                         <div className="college-card-img">
                           <img src={ucsLogo} alt="UCS" />
@@ -112,7 +113,6 @@ const PersonalData = () => {
                         <div className="college-card-img">
                           <img
                             src={logoSagrado}
-                            className="marista"
                             alt="UCS"
                           />
                         </div>
@@ -125,7 +125,6 @@ const PersonalData = () => {
                         <div className="college-card-img">
                           <img
                             src="https://apps.colegiomarista.org.br/matricula/aparecida/library/midias/imagens/logotipo.png"
-                            className="marista"
                             alt="UCS"
                           />
                         </div>

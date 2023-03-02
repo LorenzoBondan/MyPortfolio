@@ -6,7 +6,7 @@
     box-shadow: 5px 5px 15px #212121;
 
     background: linear-gradient(90deg, #ff0052 -100%, #121212 50%);
-    width: 1600px;
+    width: 1300px;
 }
 
 .personal-data-container{
@@ -29,17 +29,19 @@
     font-weight: 400;
     color: #646464;
     font-size: 18px;
+
 }
 
 .personal-data-container span{
     color: white;
     font-weight: 400;
+    margin-left: 10px;
 }
 
 .education-and-experience-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
     margin-left: 50px;
@@ -47,11 +49,11 @@
 
 .college-container, .professional-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 30px;
 }
 
-.education-container h2{
+.education-container h2, .experience-container h2{
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -59,34 +61,58 @@
 }
 
 .college-card {
-    padding: 10px 0px;
-    border-radius: 20px;
+    padding: 0 10px;
+    border-radius: 80px 0px 0px 80px;
     border: 1px solid white;
-    background-color: white;
-    color: black;
-    height: 360px;
-    width: 280px;
+    color: white;
+    height: 115px;
+    width: 430px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-right: 20px;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+
+    background: linear-gradient(-45deg, #ff0052, black);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+}
+
+.college-card h6{
+    color: #848484;
+    font-weight: 400;
 }
 
 .college-card-img{
     display: flex;
-    flex: 1;
-    border-bottom: 1px solid silver;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+    border-right: 1px solid silver;
+    margin-right: 10px;
+    padding-right: 10px;
+    
 }
 
 .college-card-img img{
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
 }
 
-.marista{
-    border-radius: 10px !important;
+.college-card-content{
+    flex: 1;
+    text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
