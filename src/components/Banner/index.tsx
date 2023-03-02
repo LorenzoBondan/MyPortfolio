@@ -5,6 +5,8 @@ import './styles.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+const PDF_FILE_URL = "http://localhost:3000/LorenzoBondan_CV.pdf";
+
 const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
@@ -44,6 +46,20 @@ const Banner = () => {
         }
     }
 
+    const downloadCVFile = (url: any) => {
+        fetch(url).then(response => response.blob())
+            .then(blob => {
+                const blobURL = window.URL.createObjectURL(new Blob([blob]))
+                const fileName = url.split("/").pop();
+                const aTag = document.createElement('a');
+                aTag.href = blobURL;
+                aTag.setAttribute('download', fileName);
+                document.body.appendChild(aTag);
+                aTag.click();
+                aTag.remove();
+            });
+    };
+
     return(
         <div className='banner-container' id='banner'>
             
@@ -66,7 +82,7 @@ const Banner = () => {
                 <TrackVisibility>
                     {({ isVisible }) => (
                         <div className={isVisible ? 'animate__animated animate__bounce banner-button-zone' : 'banner-button-zone'}>
-                            <button className='btn btn-primary content-button' onClick={() => console.log('connect')}>Download PDF CV</button>
+                            <button className='btn btn-primary content-button' onClick={() => {downloadCVFile(PDF_FILE_URL)}}>Download PDF CV</button>
                         </div>
                     )}    
                 </TrackVisibility>
