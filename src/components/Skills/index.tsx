@@ -47,7 +47,7 @@ const Skills = () => {
                     </div>
                     <div className="item">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" />
-                        <h5>Typescript</h5>
+                        <h5>TypeScript</h5>
                     </div>
                     <div className="item">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />

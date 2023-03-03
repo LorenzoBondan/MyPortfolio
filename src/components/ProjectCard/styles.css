@@ -1,21 +1,21 @@
 .project-card{
-    border: 1px solid #ff0052;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    height: 550px;
-    width: 700px;
+    height: 525px;
+    width: 475px;
     background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
+    box-shadow: 0px 4px 20px black;
 }
 
 .card-top-container{
-    align-items: center;
     margin-bottom: 10px;
     padding-bottom: 15px;
     border-bottom: 1px solid silver;
-    height: 80%;
+    height: 300px;
+    width: 450px;
 }
 
 .card-top-container img{
@@ -24,13 +24,13 @@
     border-radius: 20px;
 }
 
-.card-title-button h3 {
+.card-title-bottom h3 {
     margin-left: 10px;
     margin-top: 10px;
     color: white;
 }
 
-.card-title-button p {
+.card-title-bottom p {
     margin-left: 10px;
     color: #656565;
     flex-wrap: wrap;
@@ -38,19 +38,34 @@
 
 .button-zone{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .button-zone button {
-    width: 250px;
-    background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
+    width: 100%;
     color: white;
     border-radius: 10px;
     border: none;
+    margin-top: 30px;
+
+    background: linear-gradient(-30deg, transparent , #121212 );
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
 }
 
 .button-zone button:hover {
     background: linear-gradient(360deg, #121212 50%, #ff0052 );
     color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

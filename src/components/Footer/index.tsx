@@ -1,3 +1,7 @@
+import linkedinIcon from 'assets/images/linkedin.svg';
+import instagramIcon from 'assets/images/instagram.svg';
+import facebookIcon from 'assets/images/facebook.svg';
+import githubIcon from 'assets/images/github.svg';
 
 import './styles.css';
 
@@ -6,13 +10,15 @@ const Footer = () => {
         <>
         <footer className="footer-container">
             <div className="footer-title">Follow Me</div>
-                <div className="footer-items">
-                    <a href="https://instagram.com/lorenzobondan"><img src="img/instagram.png" alt="instagram"></img></a>
-                    <a href="https://www.youtube.com/channel/UCFHvKs41lSJMYCyMkRNbhfQ"><img src="img/youtube.png" alt="youtube"></img></a>
+            <div className='navbar-social-content-container' style={{marginRight:"0px"}}>
+                    <a href="https://linkedin.com"><img src={linkedinIcon} alt="" /></a>
+                    <a href="https://instagram.com/lorenzobondan"><img src={instagramIcon} alt="" /></a>
+                    <a href="https://facebook.com/loreenzo_bondaan"><img src={facebookIcon} alt="" /></a>
+                    <a href="https://github.com/LorenzoBondan"><img src={githubIcon} alt="" /></a>
                 </div>
         </footer>
         <div className='bottom-footer-container'>
-            <p>2023 Copyrigth All Rights Reserved</p>
+            <p>2023 © Copyrigth All Rights Reserved</p>
         </div>
         </>
     );

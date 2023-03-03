@@ -14,20 +14,20 @@ const Projects = () => {
             projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
         },
         {
-            title: "DS Catalog",
-            description: "A summary of the author's high school class",
+            title: "Final Paper of Mechanical Engineering",
+            description: "Frequency and sound level metter developed with C#",
             imgUrl: "https://miro.medium.com/max/1400/1*G5HYSWtkvvm2WqrEg_mAMw.png",
             projectUrl: "https://google.com"
         },
         {
-            title: "DS Learn",
-            description: "A summary of the author's high school class",
-            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+            title: "DS Catalog",
+            description: "A catalog of products for sale",
+            imgUrl: "https://miro.medium.com/max/1400/1*G5HYSWtkvvm2WqrEg_mAMw.png",
             projectUrl: "https://google.com"
         },
         {
             title: "MovieFlix",
-            description: "A summary of the author's high school class",
+            description: "A movie site with reviews for registered members",
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
             projectUrl: "https://google.com"
         },
@@ -35,26 +35,26 @@ const Projects = () => {
 
     const projects2 = [
         {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
+          title: "DS Learn",
+          description: "Backend project of a programming school website",
+          imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+          projectUrl: "https://google.com"
+        },
+        {
+            title: "DS Sales",
+            description: "Dashboard of sales",
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
             projectUrl: "https://google.com"
         },
         {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
+            title: "Trainee Project of Mechanical Engineering",
+            description: "Forniture structure automation with Visual Basic",
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
             projectUrl: "https://google.com"
         },
         {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
-            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-            projectUrl: "https://google.com"
-        },
-        {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
+            title: "Search for Github User",
+            description: "Application to fetch user data from github using Github API",
             imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
             projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
         }
@@ -62,14 +62,14 @@ const Projects = () => {
 
     const projects3 = [
         {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
+            title: "Forniture structure automation",
+            description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
             imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
             projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
         },
         {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
+            title: "Packaging structure automation",
+            description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
             imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
             projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
         }

@@ -1,12 +1,11 @@
 .personal-container{
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #212121;
-
     background: linear-gradient(90deg, #ff0052 -100%, #121212 50%);
     width: 1300px;
+    margin-top: 50px;
 }
 
 .personal-data-container{
@@ -15,7 +14,6 @@
     align-items: flex-start;
     padding: 20px;
     border-radius: 20px 0px 0px 20px;
-    border-right: 1px solid white;
     width: 260px;
     background-color: #121212;
 }
@@ -29,7 +27,6 @@
     font-weight: 400;
     color: #646464;
     font-size: 18px;
-
 }
 
 .personal-data-container span{
@@ -71,7 +68,7 @@
     flex-direction: row;
     align-items: center;
     margin-right: 20px;
-    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 20px black;
     margin-bottom: 20px;
 
     background: linear-gradient(-45deg, #ff0052, black);
@@ -89,7 +86,6 @@
     border-right: 1px solid silver;
     margin-right: 10px;
     padding-right: 10px;
-    
 }
 
 .college-card-img img{
