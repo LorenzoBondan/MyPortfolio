@@ -16,20 +16,20 @@ const Projects = () => {
         {
             title: "Final Paper of Mechanical Engineering",
             description: "Frequency and sound level metter developed with C#",
-            imgUrl: "https://miro.medium.com/max/1400/1*G5HYSWtkvvm2WqrEg_mAMw.png",
-            projectUrl: "https://google.com"
+            imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
+            projectUrl: "https://github.com/LorenzoBondan"
         },
         {
             title: "DS Catalog",
             description: "A catalog of products for sale",
-            imgUrl: "https://miro.medium.com/max/1400/1*G5HYSWtkvvm2WqrEg_mAMw.png",
-            projectUrl: "https://google.com"
+            imgUrl: "https://i.ibb.co/D97jYg9/dscatalog.png",
+            projectUrl: "https://github.com/LorenzoBondan/dscatalog"
         },
         {
             title: "MovieFlix",
             description: "A movie site with reviews for registered members",
-            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-            projectUrl: "https://google.com"
+            imgUrl: "https://i.ibb.co/0KHHbfd/movieflix.png",
+            projectUrl: "https://github.com/LorenzoBondan/MovieFlix"
         },
     ]
 
@@ -37,26 +37,20 @@ const Projects = () => {
         {
           title: "DS Learn",
           description: "Backend project of a programming school website",
-          imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-          projectUrl: "https://google.com"
+          imgUrl: "https://i.ibb.co/8g1Mw0c/dslearn.png",
+          projectUrl: "https://github.com/LorenzoBondan/dslearn"
         },
         {
             title: "DS Sales",
             description: "Dashboard of sales",
-            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-            projectUrl: "https://google.com"
-        },
-        {
-            title: "Trainee Project of Mechanical Engineering",
-            description: "Forniture structure automation with Visual Basic",
-            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-            projectUrl: "https://google.com"
+            imgUrl: "https://i.ibb.co/txGmKd0/dssales.png",
+            projectUrl: "https://github.com/LorenzoBondan/DSSales"
         },
         {
             title: "Search for Github User",
             description: "Application to fetch user data from github using Github API",
-            imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
-            projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
+            imgUrl: "https://i.ibb.co/HxT2qFd/githubuser.png",
+            projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User"
         }
     ]
 
@@ -64,14 +58,14 @@ const Projects = () => {
         {
             title: "Forniture structure automation",
             description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
-            imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
-            projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
+            imgUrl: "https://i.ibb.co/TgLSn4b/pintura.png",
+            projectUrl: "https://github.com/LorenzoBondan/Estrutura-Pintura"
         },
         {
             title: "Packaging structure automation",
             description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
-            imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
-            projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
+            imgUrl: "https://i.ibb.co/X7w5RYs/fantasma.png",
+            projectUrl: "https://github.com/LorenzoBondan/Estrutura-Embalagem"
         }
     ]
 
@@ -82,7 +76,7 @@ const Projects = () => {
             <div className="row">
 
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills mb-5" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
@@ -95,7 +89,7 @@ const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp">
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      <Row className='row'>
                         {
                           projects1.map((project, index) => {
                             return (
@@ -110,7 +104,7 @@ const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">
-                      <Row>
+                      <Row className='row'>
                         {
                           projects2.map((project, index) => {
                             return (
@@ -125,7 +119,7 @@ const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">
-                      <Row>
+                      <Row className='row'>
                         {
                           projects3.map((project, index) => {
                             return (
