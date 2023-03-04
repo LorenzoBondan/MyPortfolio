@@ -10,7 +10,7 @@ const Footer = () => {
         <>
         <footer className="footer-container">
             <div className="footer-title">Follow Me</div>
-            <div className='navbar-social-content-container' style={{marginRight:"0px"}}>
+            <div className='footer-social-content-container' style={{marginRight:"0px"}}>
                     <a href="https://linkedin.com"><img src={linkedinIcon} alt="" /></a>
                     <a href="https://instagram.com/lorenzobondan"><img src={instagramIcon} alt="" /></a>
                     <a href="https://facebook.com/loreenzo_bondaan"><img src={facebookIcon} alt="" /></a>
