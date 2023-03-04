@@ -1,33 +1,135 @@
 .skills-container{
-    padding: 30px;
+    padding: 0px;
     text-align: center;
     margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .skills-box{
-    padding: 20px;
+    padding: 5px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #212121;
     background-color: #111111;
     background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
 }
 
+.skills-box h2{
+    font-size: 18px;
+}
+
 .skills-box p{
+    font-size: 14px;
     color: #ff0052;
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
 .skills-slider{
-    width: 900px;
+    width: 300px;
 }
 
 .skills-slider img{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 10px;
+}
+
+.skills-slider h5{
+    font-size: 16px;
+}
+
+@media(min-width:576px){
+
+    .skills-container{
+        padding: 10px;
+    }
+    
+    .skills-box h2{
+        font-size: 26px;
+    }
+    
+    .skills-box p{
+        font-size: 18px;
+        color: #ff0052;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .skills-slider{
+        width: 500px;
+    }
+    
+    .skills-slider img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .skills-slider h5{
+        font-size: 20px;
+    }
+
+    .skills-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width:768px){
+
+    
+    .skills-slider{
+        width: 680px;
+    }
+    
+    .skills-slider img{
+        height: 170px;
+        width: 170px;
+    }
+}
+
+@media(min-width:992px){
+    .skills-box{
+        padding: 30px;
+    }
+}
+
+@media(min-width:1200px){
+    .skills-container{
+        padding: 30px;
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .skills-box{
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px #212121;
+        background-color: #111111;
+        background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
+    }
+    
+    .skills-box p{
+        color: #ff0052;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .skills-slider{
+        width: 1000px;
+    }
+    
+    .skills-slider img{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    
 }
