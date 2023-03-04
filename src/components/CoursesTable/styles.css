@@ -24,17 +24,17 @@
 .courses-table thead th {
     text-align: left;
     height: 55px;
-    font-size: 16px;
+    font-size: 12px;
     color: #ff0052;
-    padding-left: 30px;
+    padding-left: 5px;
 }
 
 .courses-table tbody td {
-    height: 55px;
+    height: 70px;
     border-top: 1px solid #72849A;
-    font-size: 18px;
+    font-size: 12px;
     transition: background .3s; /* "animação" ao passar o mouse por cima */
-    padding: 0 30px;
+    padding: 0 5px;
 }
 
 /*
@@ -56,4 +56,32 @@
 
 .courses-table tbody tr:nth-child(odd) {
     background-color: rgba(0,0,0,0.5);
+}
+
+@media(min-width:576px){
+    
+    .courses-table thead th {
+        font-size: 14px;
+        padding-left: 10px;
+        height: 55px;
+    }
+    
+    .courses-table tbody td {
+        font-size: 12px;
+        padding: 0 10px;
+        height: 55px;
+    }
+}
+
+@media(min-width:992px){
+  
+    .courses-table thead th {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    
+    .courses-table tbody td {
+        font-size: 18px;
+        padding: 0 30px;
+    }
 }
