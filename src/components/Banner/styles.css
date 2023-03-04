@@ -1,7 +1,7 @@
 .banner-container{
-    padding: 80px 80px 100px 80px;
+    padding: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background-image: url('assets/images/banner-background.jpg');
@@ -21,8 +21,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px;
-    width: 450px;
+    height: 200px;
+    width: 200px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .banner-img-container img{
@@ -36,25 +39,29 @@
 .banner-content-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .banner-content-container h1{
-    font-size: 56px;
+    font-size: 18px;
     text-shadow: 1px 1px 1px silver;
     margin-bottom: 5px;
 }
 
 .banner-content-container h2{
+    font-size: 14px;
     margin-bottom: 25px;
     color: #656565;
 }
 
 .banner-content-container p{
+    font-size: 12px;
     font-weight: 400;
     font-style: italic;
     color: silver;
     margin-bottom: 80px;
+    flex-wrap: wrap;
+    width: 250px;
 }
 
 .banner-content-container span{
@@ -63,13 +70,12 @@
 
 .banner-button-zone{
     display: flex;
-    justify-content: end;
-    align-items: end;
-    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .banner-button-zone button{
-    align-self: center !important;
+    align-self: flex-start !important;
     width: 220px;
     height: 40px;
 
@@ -77,6 +83,8 @@
     border: 1px solid white;
     color: #ff0052;
     font-weight: bold;
+
+    margin-bottom: 20px;
 }
 
 .banner-container button:hover{
@@ -101,6 +109,162 @@
     }
     100%{
         transform: rotate(-360deg);
+    }
+}
+
+@media(min-width:576px){
+
+    .banner-img-container {
+        padding: 5px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .banner-content-container h1{
+        font-size: 28px;
+    }
+    
+    .banner-content-container h2{
+        font-size: 22px;
+    }
+    
+    .banner-content-container p{
+        font-size: 18px;
+        width: 450px;
+    }
+}
+
+@media(min-width:768px){
+
+    .banner-container{
+        padding: 15px;
+    }
+
+    .banner-img-container {
+        height: 400px;
+        width: 400px;
+    }
+    
+    .banner-content-container h1{
+        font-size: 36px;
+    }
+    
+    .banner-content-container h2{
+        font-size: 30px;
+    }
+    
+    .banner-content-container p{
+        font-size: 22px;
+        width: 550px;
+    }
+}
+
+@media(min-width:992px){
+        .banner-content-container p{
+        width: 650px;
+    }
+}
+
+@media(min-width:1200px){
+    .banner-container{
+        padding: 80px 80px 100px 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: url('assets/images/banner-background.jpg');
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 5px 5px 15px #212121;
+        width: 100%;
+    }
+    
+    .banner-img-container {
+        padding: 5px;
+        border-radius: 50%;
+    
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 450px;
+    }
+    
+    .banner-img-container img{
+        border-radius: 50%;
+        height: 95%;
+        width: 95%;
+        border: 1px solid rgba(255,255,255,0.5);
+        position: absolute;
+    }
+    
+    .banner-content-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .banner-content-container h1{
+        font-size: 56px;
+        text-shadow: 1px 1px 1px silver;
+        margin-bottom: 5px;
+    }
+    
+    .banner-content-container h2{
+        margin-bottom: 25px;
+        color: #656565;
+    }
+    
+    .banner-content-container p{
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+        color: silver;
+        margin-bottom: 80px;
+    }
+    
+    .banner-content-container span{
+        color: #ff0052;
+    }
+    
+    .banner-button-zone{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        width: 100%;
+    }
+    
+    .banner-button-zone button{
+        align-self: center !important;
+        width: 220px;
+        height: 40px;
+    
+        background: transparent;
+        border: 1px solid white;
+        color: #ff0052;
+        font-weight: bold;
+
+        margin-bottom: 0;
+        margin-left: 250px;
+    }
+    
+    .banner-container button:hover{
+        color: #ff0052;
+    }
+    
+    .banner-img-container::before {
+        content: "";
+        background-image: conic-gradient(
+            #ff0052 20deg,
+            transparent 120deg
+        );
+        width: 150%;
+        height: 150%;
+        position: relative;
+        animation: rotate 4s linear infinite;
     }
 }
 

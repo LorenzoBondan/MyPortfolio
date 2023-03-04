@@ -78,7 +78,7 @@ const Banner = () => {
                     Help yourself to take a look!
                 </p>
 
-                <div style={{marginLeft:"280px"}}>
+                <div style={{marginLeft:"0px"}}>
                 <TrackVisibility>
                     {({ isVisible }) => (
                         <div className={isVisible ? 'animate__animated animate__bounce banner-button-zone' : 'banner-button-zone'}>

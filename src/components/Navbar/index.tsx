@@ -1,4 +1,6 @@
 import { CSSProperties, FC, useState } from 'react';
+import '@popperjs/core';
+import 'bootstrap/js/src/collapse';
 
 import portfolioIcon from 'assets/images/portfolioIcon.png';
 import linkedinIcon from 'assets/images/linkedin.svg';
@@ -35,7 +37,7 @@ const Navbar : FC<NavbarProps> = ({ styles }) => {
     }
 
     return(
-        <nav className="navbar navbar-expand-md navbar-container navbar-md" style={isSticky ? { ...styles, position: 'fixed', top: 0 } : styles}>
+        <nav className="navbar navbar-expand-md navbar-container" style={isSticky ? { ...styles, position: 'fixed', top: 0 } : styles}>
             <div className='container-fluid'>
                 <div className='navbar-brand'>
                     <a href="/">
@@ -43,7 +45,20 @@ const Navbar : FC<NavbarProps> = ({ styles }) => {
                         Lorenzo Bondan Portfolio
                     </a>
                 </div>
-                <div className="navbar-menu-items-container">
+
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#portfolio-navbar"
+                    aria-controls="portfolio-navbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span className='navbar-toggler-icon'></span>
+                </button>
+
+                <div className="navbar-menu-items-container collapse navbar-collapse" id='portfolio-navbar'>
                     <ul className="navbar-nav offset-md-2 main-menu">
                         <li><a href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</a></li>
                         <li><a href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</a></li>
