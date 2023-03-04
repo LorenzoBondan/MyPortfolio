@@ -9,9 +9,15 @@ import PersonalData from 'components/AboutMe/PersonalData';
 import CoursesTable from 'components/CoursesTable';
 
 function App() {
+
+  const navbarStyles = {
+    backgroundColor: '#212121',
+    color: '#fff',
+  };
+  
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar styles={navbarStyles}/>
       <div className='app-container'>
         <Banner/>
         <Skills />
