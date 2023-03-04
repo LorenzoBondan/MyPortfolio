@@ -93,10 +93,12 @@ const Projects = () => {
                         {
                           projects1.map((project, index) => {
                             return (
+                              <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
                               <ProjectCard
                                 key={index}
                                 {...project}
                                 />
+                              </div>
                             )
                           })
                         }

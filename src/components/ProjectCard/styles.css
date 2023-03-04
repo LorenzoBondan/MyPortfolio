@@ -5,8 +5,8 @@
     margin-right: 15px;
     display: flex;
     flex-direction: column;
-    height: 525px;
-    width: 475px;
+    height: 455px;
+    width: 310px;
     background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
     box-shadow: 0px 4px 20px black;
 }
@@ -15,8 +15,8 @@
     margin-bottom: 10px;
     padding-bottom: 15px;
     border-bottom: 1px solid silver;
-    height: 300px;
-    width: 450px;
+    height: 200px;
+    width: 300px;
 }
 
 .card-top-container img{
@@ -69,4 +69,19 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+@media(min-width:576px){
+    .project-card{
+        height: 525px;
+        width: 475px;
+    }
+    
+    .card-top-container{
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid silver;
+        height: 300px;
+        width: 450px;
+    }  
 }
