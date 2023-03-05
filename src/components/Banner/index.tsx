@@ -5,7 +5,7 @@ import './styles.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-const PDF_FILE_URL = "http://localhost:3000/LorenzoBondan_CV.pdf";
+const PDF_FILE_URL = "https://lorenzobondanportfolio.vercel.app/LorenzoBondan_CV.pdf";
 
 const Banner = () => {
 
