@@ -35,6 +35,12 @@ const CoursesTable = () => {
             school: "Infoserv"
         },
         {
+            name: "Excel Avançado",
+            language: "Excel",
+            hours: 32,
+            school: "Infoserv"
+        },
+        {
             name: "Power BI",
             language: "Power BI",
             hours: 30,
