@@ -132,6 +132,20 @@ const PersonalData = () => {
                           <h4>Elementary School</h4>
                         </div>
                       </div>
+
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                        <div className="college-card-img">
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/1/11/Logo-CNA-2018.png"
+                            alt="CNA"
+                          />
+                        </div>
+                        <div className="college-card-content">
+                          <h4>CNA</h4>
+                          <h6>Platinum 2. The most advanced module</h6>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>

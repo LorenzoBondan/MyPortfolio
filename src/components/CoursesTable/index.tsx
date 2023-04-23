@@ -17,6 +17,12 @@ const CoursesTable = () => {
             school: "DevSuperior"
         },
         {
+            name: "Java Programação Orientada a Objetos",
+            language: "Java",
+            hours: 55,
+            school: "Udemy"
+        },
+        {
             name: "C# Completo e Profissional",
             language: "C#",
             hours: 68,
@@ -45,6 +51,12 @@ const CoursesTable = () => {
             language: "Power BI",
             hours: 30,
             school: "Infoserv"
+        },
+        {
+            name: "Photoshop",
+            language: "Photoshop",
+            hours: 15,
+            school: "Udemy"
         },
         {
             name: "Desenvolvimento Front-End",

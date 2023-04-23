@@ -14,6 +14,12 @@ const Projects = () => {
             projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
         },
         {
+          title: "Soccer League Simulator",
+          description: "A summary and a simulator of the brazilian soccer league",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/233791700-2fc0d1e8-5224-482c-ba43-3b6021b12a7e.png",
+          projectUrl: "https://github.com/LorenzoBondan/SoccerLeague"
+        },
+        {
             title: "Final Paper of Mechanical Engineering",
             description: "Frequency and sound level metter developed with C#",
             imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
@@ -24,16 +30,16 @@ const Projects = () => {
             description: "A catalog of products for sale",
             imgUrl: "https://i.ibb.co/D97jYg9/dscatalog.png",
             projectUrl: "https://github.com/LorenzoBondan/dscatalog"
-        },
-        {
-            title: "MovieFlix",
-            description: "A movie site with reviews for registered members",
-            imgUrl: "https://i.ibb.co/0KHHbfd/movieflix.png",
-            projectUrl: "https://github.com/LorenzoBondan/MovieFlix"
-        },
+        }
     ]
 
     const projects2 = [
+        {
+          title: "MovieFlix",
+          description: "A movie site with reviews for registered members",
+          imgUrl: "https://i.ibb.co/0KHHbfd/movieflix.png",
+          projectUrl: "https://github.com/LorenzoBondan/MovieFlix"
+        },
         {
           title: "DS Learn",
           description: "Backend project of a programming school website",
@@ -41,20 +47,26 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/dslearn"
         },
         {
-            title: "DS Sales",
-            description: "Dashboard of sales",
-            imgUrl: "https://i.ibb.co/txGmKd0/dssales.png",
-            projectUrl: "https://github.com/LorenzoBondan/DSSales"
+          title: "Delivery App",
+          description: "Application of an delivery service",
+          imgUrl: "https://i.ibb.co/6wLM9Vm/deliver.png",
+          projectUrl: "https://github.com/LorenzoBondan/Delivery"
         },
         {
-            title: "Search for Github User",
-            description: "Application to fetch user data from github using Github API",
-            imgUrl: "https://i.ibb.co/HxT2qFd/githubuser.png",
-            projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User"
+          title: "DS Sales",
+          description: "Dashboard of sales",
+          imgUrl: "https://i.ibb.co/txGmKd0/dssales.png",
+          projectUrl: "https://github.com/LorenzoBondan/DSSales"
         }
     ]
 
     const projects3 = [
+        {
+        title: "Search for Github User",
+        description: "Application to fetch user data from github using Github API",
+        imgUrl: "https://i.ibb.co/HxT2qFd/githubuser.png",
+        projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User"
+        },
         {
             title: "Forniture structure automation",
             description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
