@@ -16,14 +16,14 @@ const Projects = () => {
         {
           title: "Soccer League Simulator",
           description: "A summary and a simulator of the brazilian soccer league",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/239691813-a33afe1c-557f-44e2-8d0a-56ec155b1d3b.png",
-          projectUrl: "https://github.com/LorenzoBondan/University"
+          imgUrl: "https://user-images.githubusercontent.com/105743965/233791700-2fc0d1e8-5224-482c-ba43-3b6021b12a7e.png",
+          projectUrl: "https://github.com/LorenzoBondan/SoccerLeague"
         },
         {
           title: "Univesity",
           description: "A university project where students can subscribe to courses and class sections of the subjects.",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/233791700-2fc0d1e8-5224-482c-ba43-3b6021b12a7e.png",
-          projectUrl: "https://github.com/LorenzoBondan/SoccerLeague"
+          imgUrl: "https://user-images.githubusercontent.com/105743965/239691813-a33afe1c-557f-44e2-8d0a-56ec155b1d3b.png",
+          projectUrl: "https://github.com/LorenzoBondan/University"
         },
         {
           title: "Final Paper of Mechanical Engineering",
@@ -108,15 +108,16 @@ const Projects = () => {
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp">
-                    <Tab.Pane eventKey="first">
+                    
+                  <Tab.Pane eventKey="first">
                       <Row className='row'>
                         {
                           projects1.map((project, index) => {
                             return (
                               <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
-                              <ProjectCard
-                                key={index}
-                                {...project}
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
                                 />
                               </div>
                             )
@@ -130,10 +131,12 @@ const Projects = () => {
                         {
                           projects2.map((project, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
+                              <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
                                 />
+                              </div>
                             )
                           })
                         }
@@ -145,10 +148,12 @@ const Projects = () => {
                         {
                           projects3.map((project, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
+                              <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
                                 />
+                              </div>
                             )
                           })
                         }

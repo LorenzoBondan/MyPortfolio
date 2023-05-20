@@ -141,7 +141,7 @@ const PersonalData = () => {
                           />
                         </div>
                         <div className="college-card-content">
-                          <h4>CNA</h4>
+                          <h4>CNA English School</h4>
                           <h6>Platinum 2. The most advanced module</h6>
                         </div>
                       </div>

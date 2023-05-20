@@ -12,7 +12,7 @@ const CoursesTable = () => {
         },
         {
             name: "Bootcamp React",
-            language: "React",
+            language: "TypeScript, React",
             hours: 160,
             school: "DevSuperior"
         },

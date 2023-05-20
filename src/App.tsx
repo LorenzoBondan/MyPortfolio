@@ -7,6 +7,7 @@ import Projects from 'components/Projects';
 import Footer from 'components/Footer';
 import PersonalData from 'components/AboutMe/PersonalData';
 import CoursesTable from 'components/CoursesTable';
+import Tools from 'components/Tools';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       <Navbar styles={navbarStyles}/>
       <div className='app-container'>
         <Banner/>
-        <Skills />
+        <Skills/>
+        <Tools/>
         <PersonalData/>
         <Projects/>
         <CoursesTable/>

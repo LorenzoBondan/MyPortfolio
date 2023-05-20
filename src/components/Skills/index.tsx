@@ -1,6 +1,5 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import visualbasic from 'assets/images/visualbasic.png';
 
 import './styles.css';
 
@@ -30,7 +29,7 @@ const Skills = () => {
         <div className='skills-container' id="skills">
             <div className="skills-box wow zoomIn">
                 <h2>Skills</h2>
-                <p>This are some of the programming languages and frameworks that I use to develop my projects</p>
+                <p>This are some of the programming languages, frameworks and tools that I use to develop my projects</p>
 
                 <Carousel responsive={responsive} infinite={true} className="skills-slider" autoPlay={true} autoPlaySpeed={2500}>
                     <div className="item">
@@ -65,12 +64,9 @@ const Skills = () => {
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="" />
                         <h5>PostgreSQL</h5>
                     </div>
-                    <div className="item">
-                        <img src={visualbasic} alt="" />
-                        <h5>Visual Basic</h5>
-                    </div>
                 </Carousel>
             </div>
+            
         </div>
     );
 }
