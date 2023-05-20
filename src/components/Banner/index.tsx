@@ -74,7 +74,7 @@ const Banner = () => {
 
                 <p>
                     My name is Lorenzo Bondan, I'm software engineering student and mechanical engineer.<br/>
-                    I'm looking for my first experience as developer, and here, I build a resume of myself.<br/>
+                    I am passionate about technology, especially web application development, and here I have built a summary about myself.<br/>
                     Help yourself to take a look!
                 </p>
 
