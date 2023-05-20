@@ -95,7 +95,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>Software Engineering</h4>
-                          <h6>Current: 1/8</h6>
+                          <h6>Current: 40% completed</h6>
                         </div>
                       </div>
 
@@ -105,7 +105,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>Mechanical Engineering</h4>
-                          <h6>Current: 10/10</h6>
+                          <h6>Current: 100% completed</h6>
                         </div>
                       </div>
 

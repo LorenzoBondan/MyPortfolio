@@ -16,24 +16,31 @@ const Projects = () => {
         {
           title: "Soccer League Simulator",
           description: "A summary and a simulator of the brazilian soccer league",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/239691813-a33afe1c-557f-44e2-8d0a-56ec155b1d3b.png",
+          projectUrl: "https://github.com/LorenzoBondan/University"
+        },
+        {
+          title: "Univesity",
+          description: "A university project where students can subscribe to courses and class sections of the subjects.",
           imgUrl: "https://user-images.githubusercontent.com/105743965/233791700-2fc0d1e8-5224-482c-ba43-3b6021b12a7e.png",
           projectUrl: "https://github.com/LorenzoBondan/SoccerLeague"
         },
         {
-            title: "Final Paper of Mechanical Engineering",
-            description: "Frequency and sound level metter developed with C#",
-            imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
-            projectUrl: "https://github.com/LorenzoBondan"
+          title: "Final Paper of Mechanical Engineering",
+          description: "Frequency and sound pressure level meter that generates dosimetry reports",
+          imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
+          projectUrl: "https://github.com/LorenzoBondan"
         },
-        {
-            title: "DS Catalog",
-            description: "A catalog of products for sale",
-            imgUrl: "https://i.ibb.co/D97jYg9/dscatalog.png",
-            projectUrl: "https://github.com/LorenzoBondan/dscatalog"
-        }
+
     ]
 
     const projects2 = [
+        {
+          title: "DS Catalog",
+          description: "A catalog of products for sale",
+          imgUrl: "https://i.ibb.co/D97jYg9/dscatalog.png",
+          projectUrl: "https://github.com/LorenzoBondan/dscatalog"
+        },
         {
           title: "MovieFlix",
           description: "A movie site with reviews for registered members",
@@ -52,15 +59,16 @@ const Projects = () => {
           imgUrl: "https://i.ibb.co/6wLM9Vm/deliver.png",
           projectUrl: "https://github.com/LorenzoBondan/Delivery"
         },
+
+    ]
+
+    const projects3 = [
         {
           title: "DS Sales",
           description: "Dashboard of sales",
           imgUrl: "https://i.ibb.co/txGmKd0/dssales.png",
           projectUrl: "https://github.com/LorenzoBondan/DSSales"
-        }
-    ]
-
-    const projects3 = [
+        },
         {
         title: "Search for Github User",
         description: "Application to fetch user data from github using Github API",
