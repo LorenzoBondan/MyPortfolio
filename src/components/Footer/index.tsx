@@ -11,11 +11,15 @@ const Footer = () => {
         <footer className="footer-container">
             <div className="footer-title">Follow Me</div>
             <div className='footer-social-content-container' style={{marginRight:"0px"}}>
-                    <a href="https://linkedin.com"><img src={linkedinIcon} alt="" /></a>
-                    <a href="https://instagram.com/lorenzobondan"><img src={instagramIcon} alt="" /></a>
-                    <a href="https://facebook.com/loreenzo_bondaan"><img src={facebookIcon} alt="" /></a>
-                    <a href="https://github.com/LorenzoBondan"><img src={githubIcon} alt="" /></a>
-                </div>
+                <a href="https://linkedin.com"><img src={linkedinIcon} alt="" /></a>
+                <a href="https://instagram.com/lorenzobondan"><img src={instagramIcon} alt="" /></a>
+                <a href="https://facebook.com/loreenzo_bondaan"><img src={facebookIcon} alt="" /></a>
+                <a href="https://github.com/LorenzoBondan"><img src={githubIcon} alt="" /></a>
+            </div>
+            <div className='footer-bottom-container'>
+                <h6>Portfolio developed with</h6>
+                <p>React, Typescript and CSS</p>
+            </div>
         </footer>
         <div className='bottom-footer-container'>
             <p>2023 © Copyrigth All Rights Reserved</p>

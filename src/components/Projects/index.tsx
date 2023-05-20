@@ -20,7 +20,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/SoccerLeague"
         },
         {
-          title: "Univesity",
+          title: "University",
           description: "A university project where students can subscribe to courses and class sections of the subjects.",
           imgUrl: "https://user-images.githubusercontent.com/105743965/239691813-a33afe1c-557f-44e2-8d0a-56ec155b1d3b.png",
           projectUrl: "https://github.com/LorenzoBondan/University"
