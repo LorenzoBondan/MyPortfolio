@@ -4,6 +4,7 @@ import './styles.css';
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import CardLoader from 'components/CardLoader';
 
 const PDF_FILE_URL = "https://lorenzobondanportfolio.vercel.app/LorenzoBondan_CV.pdf";
 
@@ -60,11 +61,24 @@ const Banner = () => {
             });
     };
 
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+      useEffect(() => {
+        const img = new Image();
+        img.src = "https://i.ibb.co/KwJyNfM/lorenzo.jpg";
+        img.onload = () => {
+          setImageLoaded(true);
+        };
+      }, []);
+
     return(
         <div className='banner-container' id='home'>
-            
             <div className='banner-img-container '>
-                <img src="https://i.ibb.co/KwJyNfM/lorenzo.jpg" alt="" />
+                {!imageLoaded ? (
+                    <div><CardLoader/></div>
+                ) : (
+                    <img src="https://i.ibb.co/KwJyNfM/lorenzo.jpg" alt=""/>
+                )}
             </div>
 
             <div className='banner-content-container'>
