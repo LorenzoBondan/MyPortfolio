@@ -65,7 +65,7 @@ const Banner = () => {
 
       useEffect(() => {
         const img = new Image();
-        img.src = "https://i.ibb.co/gvVP0Yg/lorenzoshort.png";
+        img.src = "https://i.ibb.co/FDgZNXV/lorenzooficial.png";
         img.onload = () => {
           setImageLoaded(true);
         };
@@ -77,7 +77,7 @@ const Banner = () => {
                 {!imageLoaded ? (
                     <div><CardLoader/></div>
                 ) : (
-                    <img src="https://i.ibb.co/gvVP0Yg/lorenzoshort.png" alt=""/>
+                    <img src="https://i.ibb.co/FDgZNXV/lorenzooficial.png" alt=""/>
                 )}
             </div>
 
