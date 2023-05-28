@@ -8,16 +8,22 @@ const Projects = () => {
 
     const projects1 = [
         {
-            title: "High School Class",
-            description: "A summary of the author's high school class",
-            imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
-            projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
+          title: "Social Network",
+          description: "A Social Network where users can post, follow, like and comment their friends posts.",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/241565403-db0c85ec-9e48-4abe-a172-20b496399648.png",
+          projectUrl: "https://github.com/LorenzoBondan/SocialNetwork"
         },
         {
           title: "Soccer League Simulator",
           description: "A summary and a simulator of the brazilian soccer league",
           imgUrl: "https://user-images.githubusercontent.com/105743965/233791700-2fc0d1e8-5224-482c-ba43-3b6021b12a7e.png",
           projectUrl: "https://github.com/LorenzoBondan/SoccerLeague"
+        },
+        {
+          title: "High School Class",
+          description: "A summary of the author's high school class",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
+          projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students"
         },
         {
           title: "University",
@@ -76,16 +82,16 @@ const Projects = () => {
         projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User"
         },
         {
-            title: "Forniture structure automation",
-            description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
-            imgUrl: "https://i.ibb.co/TgLSn4b/pintura.png",
-            projectUrl: "https://github.com/LorenzoBondan/Estrutura-Pintura"
+          title: "Forniture structure automation",
+          description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
+          imgUrl: "https://i.ibb.co/TgLSn4b/pintura.png",
+          projectUrl: "https://github.com/LorenzoBondan/Estrutura-Pintura"
         },
         {
-            title: "Packaging structure automation",
-            description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
-            imgUrl: "https://i.ibb.co/X7w5RYs/fantasma.png",
-            projectUrl: "https://github.com/LorenzoBondan/Estrutura-Embalagem"
+          title: "Packaging structure automation",
+          description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
+          imgUrl: "https://i.ibb.co/X7w5RYs/fantasma.png",
+          projectUrl: "https://github.com/LorenzoBondan/Estrutura-Embalagem"
         }
     ]
 
