@@ -32,6 +32,12 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/University"
         },
         {
+          title: "BarberShop",
+          description: "A BarberShop where clients can create new appointments with their preferred barber at a convenient time for them.",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/244556720-0d134571-8bab-473a-a27b-016248f89d39.png",
+          projectUrl: "https://github.com/LorenzoBondan/BarberShop"
+        },
+        {
           title: "Final Paper of Mechanical Engineering",
           description: "Frequency and sound pressure level meter that generates dosimetry reports",
           imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
