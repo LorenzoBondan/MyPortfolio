@@ -22,7 +22,7 @@ const PersonalData = () => {
     <>
       <div className="personal-container" id="aboutMe">
         <div className="personal-data-container">
-          <h2>Personal Data</h2>
+          <h2 style={{width:"100%"}}>Personal Data</h2>
           <h4>
             <i>
               <AiFillHome />
@@ -48,7 +48,7 @@ const PersonalData = () => {
             <span>Age -  {ageCalc('1999-07-17')}</span>
           </h4>
 
-          <h2 style={{ marginTop: '30px' }}>Languages</h2>
+          <h2 style={{ marginTop: '30px', width:"100%" }}>Languages</h2>
           <h4>
             <i>
               <img
@@ -95,7 +95,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>Software Engineering</h4>
-                          <h6>Current: 40% completed</h6>
+                          <h6>Current: 50% completed</h6>
                         </div>
                       </div>
 
@@ -113,7 +113,7 @@ const PersonalData = () => {
                         <div className="college-card-img">
                           <img
                             src={logoSagrado}
-                            alt="UCS"
+                            alt="Sagrado"
                           />
                         </div>
                         <div className="college-card-content">
@@ -124,8 +124,8 @@ const PersonalData = () => {
                       <div className="college-card col-sm-6 col-lg-4 col-xl-3">
                         <div className="college-card-img">
                           <img
-                            src="https://apps.colegiomarista.org.br/matricula/aparecida/library/midias/imagens/logotipo.png"
-                            alt="UCS"
+                            src="https://99prod.s3.amazonaws.com/uploads/image/file/900202/c5977ec933c59bf4251ad1010b3b22df.jpg"
+                            alt="Marista"
                           />
                         </div>
                         <div className="college-card-content">
@@ -136,7 +136,7 @@ const PersonalData = () => {
                       <div className="college-card col-sm-6 col-lg-4 col-xl-3">
                         <div className="college-card-img">
                           <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/1/11/Logo-CNA-2018.png"
+                            src="https://scontent.fcxj12-1.fna.fbcdn.net/v/t39.30808-6/336101748_595405635978475_6086262780660101178_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=M0WbfmzFWPwAX9wPsBr&_nc_ht=scontent.fcxj12-1.fna&oh=00_AfDLgRIkVeU2r5fgSzUKutmaeeU_hFjafs3T5MBZsSTaqA&oe=648C9A36"
                             alt="CNA"
                           />
                         </div>

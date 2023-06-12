@@ -11,6 +11,11 @@
     box-shadow: 0px 4px 20px black;
 }
 
+.project-card:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
 .card-top-container{
     margin-bottom: 10px;
     padding-bottom: 15px;
