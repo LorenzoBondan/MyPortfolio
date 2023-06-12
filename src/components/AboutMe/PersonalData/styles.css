@@ -16,11 +16,13 @@
     border-radius: 20px 0px 0px 20px;
     width: 300px;
     background-color: #121212;
+    width: 100%;
 }
 
 .personal-data-container h2{
     margin-bottom: 20px;
     border-bottom: 1px solid silver;
+    text-shadow: 1px 1px 1px black;
 }
 
 .personal-data-container h4{
