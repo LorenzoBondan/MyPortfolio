@@ -29,6 +29,7 @@ const Skills = () => {
         <div className='skills-container' id="skills">
             <div className="skills-box wow zoomIn">
                 <h2>Skills</h2>
+                <span className="separator"></span>
                 <p>This are some of the programming languages, frameworks and tools that I use to develop my projects</p>
 
                 <Carousel responsive={responsive} infinite={true} className="skills-slider" autoPlay={true} autoPlaySpeed={2500}>

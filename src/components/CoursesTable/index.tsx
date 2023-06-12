@@ -87,7 +87,7 @@ const CoursesTable = () => {
     return(
         <div className='courses-table-container' id='courses'>
             <h2 className='courses-table-title'>Courses</h2>
-
+            <span className='separator'></span>
             <table className='courses-table'>
 
                 <thead>

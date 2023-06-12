@@ -103,8 +103,8 @@ const Projects = () => {
 
     return(
         <div className='projects-container' id='projects'>
-            <h2>Projects</h2>
-
+            <h2 style={{marginBottom:"0"}}>Projects</h2>
+            <span className='separator'></span>
             <div className="row">
 
             <Tab.Container id="projects-tabs" defaultActiveKey="first">

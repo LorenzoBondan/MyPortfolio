@@ -71,3 +71,11 @@ ul {
     background-size: contain;
     background-repeat: repeat;
   }
+
+  .separator{
+    background-color: #ff0052;
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0;
+}

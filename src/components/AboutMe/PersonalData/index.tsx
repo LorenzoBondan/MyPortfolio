@@ -85,7 +85,7 @@ const PersonalData = () => {
               <div className="education-and-experience-container">
                 <div className="education-container">
                   <h2>Education</h2>
-
+                  <span className='separator'></span>
                   <div className="row">
                     <div className="college-container">
                       
@@ -152,7 +152,7 @@ const PersonalData = () => {
 
                 <div className="experience-container">
                   <h2>Experience</h2>
-
+                  <span className='separator'></span>
                   <div className="row">
                     <div className="professional-container">
                       <div className="college-card col-sm-6 col-lg-4 col-xl-3">
