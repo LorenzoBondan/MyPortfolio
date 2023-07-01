@@ -8,6 +8,12 @@ const Projects = () => {
 
     const projects1 = [
         {
+          title: "AgiTask",
+          description: "Tasks management tool, with comments, notifications and data analysis",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/250280313-8e2fb385-dedb-4e50-88c3-3aa54d6cc0ae.png",
+          projectUrl: "https://github.com/LorenzoBondan/AgiTask"
+        },
+        {
           title: "Social Network",
           description: "A Social Network where users can post, follow, like and comment their friends posts.",
           imgUrl: "https://user-images.githubusercontent.com/105743965/241565403-db0c85ec-9e48-4abe-a172-20b496399648.png",
@@ -37,13 +43,6 @@ const Projects = () => {
           imgUrl: "https://user-images.githubusercontent.com/105743965/244556720-0d134571-8bab-473a-a27b-016248f89d39.png",
           projectUrl: "https://github.com/LorenzoBondan/BarberShop"
         },
-        {
-          title: "Final Paper of Mechanical Engineering",
-          description: "Frequency and sound pressure level meter that generates dosimetry reports",
-          imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
-          projectUrl: "https://github.com/LorenzoBondan"
-        },
-
     ]
 
     const projects2 = [
@@ -86,6 +85,12 @@ const Projects = () => {
         description: "Application to fetch user data from github using Github API",
         imgUrl: "https://i.ibb.co/HxT2qFd/githubuser.png",
         projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User"
+        },
+        {
+          title: "Final Paper of Mechanical Engineering",
+          description: "Frequency and sound pressure level meter that generates dosimetry reports",
+          imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
+          projectUrl: "https://github.com/LorenzoBondan"
         },
         {
           title: "Forniture structure automation",

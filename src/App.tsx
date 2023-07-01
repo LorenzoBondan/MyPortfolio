@@ -8,6 +8,9 @@ import Footer from 'components/Footer';
 import PersonalData from 'components/AboutMe/PersonalData';
 import CoursesTable from 'components/CoursesTable';
 import Tools from 'components/Tools';
+import Modal from 'react-modal';
+
+Modal.setAppElement("#root");
 
 function App() {
 

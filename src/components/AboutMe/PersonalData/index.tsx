@@ -6,7 +6,8 @@ import ucsLogo from 'assets/images/ucs.jpg';
 import logoSagrado from 'assets/images/logo-sagrado.png';
 import logoTodeschini from 'assets/images/todeschini.png';
 import logoWeg from 'assets/images/weg.png';
-
+import { Tooltip as ReactTooltip } from 'react-tooltip'
+import cnaLogo from 'assets/images/cna-logo.jpg';
 import './styles.css';
 
 function ageCalc(date: string | undefined) {
@@ -88,18 +89,18 @@ const PersonalData = () => {
                   <span className='separator'></span>
                   <div className="row">
                     <div className="college-container">
-                      
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      <ReactTooltip id="tooltip-personal-data" place="top"/>
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
-                          <img src={ucsLogo} alt="UCS" />
+                          <img src={ucsLogo} alt="UCS"/>
                         </div>
                         <div className="college-card-content">
                           <h4>Software Engineering</h4>
-                          <h6>Current: 50% completed</h6>
+                          <h6>Current: 52% completed</h6>
                         </div>
                       </div>
-
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={ucsLogo} alt="UCS" />
                         </div>
@@ -109,36 +110,27 @@ const PersonalData = () => {
                         </div>
                       </div>
 
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Sagrado Coração de Jesus" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
-                          <img
-                            src={logoSagrado}
-                            alt="Sagrado"
-                          />
+                          <img src={logoSagrado} alt="Sagrado" />
                         </div>
                         <div className="college-card-content">
                           <h4>High School</h4>
                         </div>
                       </div>
 
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Marista Nossa Senhora de Aparecida" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
-                          <img
-                            src="https://99prod.s3.amazonaws.com/uploads/image/file/900202/c5977ec933c59bf4251ad1010b3b22df.jpg"
-                            alt="Marista"
-                          />
+                          <img src="https://99prod.s3.amazonaws.com/uploads/image/file/900202/c5977ec933c59bf4251ad1010b3b22df.jpg" alt="Marista"/>
                         </div>
                         <div className="college-card-content">
                           <h4>Elementary School</h4>
                         </div>
                       </div>
 
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="CNA - English School" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
-                          <img
-                            src="https://scontent.fcxj12-1.fna.fbcdn.net/v/t39.30808-6/336101748_595405635978475_6086262780660101178_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=M0WbfmzFWPwAX9wPsBr&_nc_ht=scontent.fcxj12-1.fna&oh=00_AfDLgRIkVeU2r5fgSzUKutmaeeU_hFjafs3T5MBZsSTaqA&oe=648C9A36"
-                            alt="CNA"
-                          />
+                          <img src={cnaLogo} alt="CNA" />
                         </div>
                         <div className="college-card-content">
                           <h4>CNA English School</h4>
@@ -155,7 +147,7 @@ const PersonalData = () => {
                   <span className='separator'></span>
                   <div className="row">
                     <div className="professional-container">
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Todeschini SA" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={logoTodeschini} alt="UCS" />
                         </div>
@@ -165,7 +157,7 @@ const PersonalData = () => {
                         </div>
                       </div>
 
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3">
+                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="WEG Cestari" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={logoWeg} alt="UCS" />
                         </div>

@@ -5,8 +5,8 @@ const CoursesTable = () => {
 
     const courses = [
         {
-            name: "Bootcamp Spring",
-            language: "Java, Spring",
+            name: "Bootcamp Spring Boot",
+            language: "Java, Spring Boot",
             hours: 160,
             school: "DevSuperior"
         },
