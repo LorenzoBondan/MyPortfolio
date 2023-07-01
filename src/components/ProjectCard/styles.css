@@ -66,6 +66,91 @@
     color: white;
 }
 
+.project-modal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.project-modal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50% !important;
+}
+
+.project-modal-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project-modal-title h1{
+    color: #ff0052;
+    font-weight: 700;
+}
+
+.project-modal-carousel-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.project-images-slider{
+    width: 100%;
+    height: auto;
+}
+
+.project-modal-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-modal-image-container img{
+    height: auto;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.project-modal-buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    border-top: 2px solid #656565;
+    margin-top: 10px;
+}
+
+.project-modal-buttons-container button{
+    width: 49% !important;
+}
+
+.project-link{
+    width: 50%;
+}
+
+.project-link button{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-link img{
+    margin-right: 5px;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
