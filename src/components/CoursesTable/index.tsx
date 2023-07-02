@@ -89,7 +89,6 @@ const CoursesTable = () => {
             <h2 className='courses-table-title'>Courses</h2>
             <span className='separator'></span>
             <table className='courses-table'>
-
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -98,7 +97,6 @@ const CoursesTable = () => {
                         <th>School</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     {courses.map((course, index) => (
                         <tr key={index}>
@@ -109,10 +107,8 @@ const CoursesTable = () => {
                         </tr>
                     ))}
                 </tbody>
-
             </table>
         </div>
-
     );
 }
 

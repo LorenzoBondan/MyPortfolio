@@ -105,9 +105,7 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: 
                       <button className='btn btn-secondary'><img src={githubIcon} alt="" /> See Github Project</button>
                     </a>
                   </div>
-                  
                 </div>
-                
               </Modal>
             </div>
           </div>

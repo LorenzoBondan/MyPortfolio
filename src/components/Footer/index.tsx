@@ -2,7 +2,6 @@ import linkedinIcon from 'assets/images/linkedin.svg';
 import instagramIcon from 'assets/images/instagram.svg';
 import facebookIcon from 'assets/images/facebook.svg';
 import githubIcon from 'assets/images/github.svg';
-
 import './styles.css';
 
 const Footer = () => {

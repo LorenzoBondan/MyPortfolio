@@ -1,4 +1,3 @@
-
 import './styles.css';
 import AsthaLogo from 'assets/images/astah-logo.png';
 import { Tooltip as ReactTooltip } from 'react-tooltip'

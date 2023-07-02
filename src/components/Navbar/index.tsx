@@ -1,13 +1,11 @@
 import { CSSProperties, FC, useState } from 'react';
 import '@popperjs/core';
 import 'bootstrap/js/src/collapse';
-
 import portfolioIcon from 'assets/images/portfolioIcon.png';
 import linkedinIcon from 'assets/images/linkedin.svg';
 import instagramIcon from 'assets/images/instagram.svg';
 import facebookIcon from 'assets/images/facebook.svg';
 import githubIcon from 'assets/images/github.svg';
-
 import './styles.css';
 
 interface NavbarProps {
@@ -45,7 +43,6 @@ const Navbar : FC<NavbarProps> = ({ styles }) => {
                         Lorenzo Bondan Portfolio
                     </a>
                 </div>
-
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -57,7 +54,6 @@ const Navbar : FC<NavbarProps> = ({ styles }) => {
                 >
                     <span className='navbar-toggler-icon'></span>
                 </button>
-
                 <div className="navbar-menu-items-container collapse navbar-collapse" id='portfolio-navbar'>
                     <ul className="navbar-nav offset-md-2 main-menu">
                         <li><a href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</a></li>
@@ -77,6 +73,5 @@ const Navbar : FC<NavbarProps> = ({ styles }) => {
         </nav>
     );
 }
-
 
 export default Navbar;

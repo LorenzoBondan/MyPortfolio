@@ -299,7 +299,6 @@ const Projects = () => {
             },
           ]
         },
-
     ]
 
     const projects3 = [
@@ -365,7 +364,6 @@ const Projects = () => {
             <h2 style={{marginBottom:"0"}}>Projects</h2>
             <span className='separator'></span>
             <div className="row">
-
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5" id="pills-tab">
                     <Nav.Item>
@@ -379,7 +377,6 @@ const Projects = () => {
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp">
-                    
                   <Tab.Pane eventKey="first">
                       <Row className='row'>
                         {
@@ -396,7 +393,6 @@ const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-
                     <Tab.Pane eventKey="second">
                       <Row className='row'>
                         {
@@ -413,7 +409,6 @@ const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-
                     <Tab.Pane eventKey="third">
                       <Row className='row'>
                         {
@@ -430,7 +425,6 @@ const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-
                   </Tab.Content>
                 </Tab.Container>
             </div>

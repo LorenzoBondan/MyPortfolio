@@ -12,6 +12,9 @@ https://lorenzobondanportfolio.vercel.app/
 #### Projects
 ![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/63ce8476-c09b-491a-8bac-20de7cb13040)
 
+#### Project Details
+![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/2b81e8fa-5794-4ce0-8d41-92ef0aeff582)
+
 #### Courses
 ![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/5cae3270-b180-463a-999f-f373f8e9f521)
 
