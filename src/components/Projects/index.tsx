@@ -9,225 +9,246 @@ const Projects = () => {
         {
           title: "AgiTask",
           description: "Tasks management tool, with comments, notifications and data analysis",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/250280313-8e2fb385-dedb-4e50-88c3-3aa54d6cc0ae.png",
+          imgUrl: "https://i.ibb.co/WzYp0bS/tasks.png",
           projectUrl: "https://github.com/LorenzoBondan/AgiTask",
           images:[
             {
-              url: "https://user-images.githubusercontent.com/105743965/250280313-8e2fb385-dedb-4e50-88c3-3aa54d6cc0ae.png",
+              url: "https://i.ibb.co/WzYp0bS/tasks.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522590-64ca646b-1297-4870-a10d-4d1ba2a93d62.png",
+              url: "https://i.ibb.co/84sjNbm/task-details-comments.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522596-fa5bf119-780b-4cb0-90a5-b77493d0df06.png",
+              url: "https://i.ibb.co/THCr61k/task-details-works.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522597-324b2df0-6cbf-4e9e-ada1-cae2184a34fb.png",
+              url: "https://i.ibb.co/xLvyJLn/task-details-works-edit.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522603-3fe949b7-58fd-4ad7-a01c-ee009b78e84a.png",
+              url: "https://i.ibb.co/PsLH2ty/task-details-data.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522610-72838052-c4b8-4c1b-b681-d8d77f5269f7.png",
+              url: "https://i.ibb.co/hMDXtwx/profile.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522616-4ea1d391-de29-4ba2-8cbd-543901db044f.png",
+              url: "https://i.ibb.co/4gxWhsL/admin.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522620-3725c1bd-b2bf-4e4a-9e80-2c539cfd59d3.png",
+              url: "https://i.ibb.co/gZWRsdb/new-task.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522622-8e72b43b-6053-4f15-9f46-2884f9faa2f3.png",
+              url: "https://i.ibb.co/5x5LZFf/home1.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522625-0a3ece16-77ba-4cb3-aaa3-627558b54811.png",
+              url: "https://i.ibb.co/N2kWXP2/home2.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522630-c8b8d573-4ae3-4ac7-9f7f-1d99cee9e940.png",
+              url: "https://i.ibb.co/9wQ2bvF/home3.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522638-a10339d6-0d4a-4129-a60a-e4dfe3840cb1.png",
+              url: "https://i.ibb.co/zH1L6YZ/home4.png",
             },
             {
-              url: "https://user-images.githubusercontent.com/105743965/248522643-e5e2fe29-a4c9-4136-9abf-0630b5846ea9.png",
+              url: "https://i.ibb.co/Qj5brTq/login.png",
+            },
+            {
+              url: "https://i.ibb.co/7VvRg7H/register.png",
+            },
+            {
+              url: "https://i.ibb.co/JdjjmPH/asta.png",
             },
           ]
         },
         {
           title: "Social Network",
           description: "A Social Network where users can post, follow, like and comment their friends posts.",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/241565403-db0c85ec-9e48-4abe-a172-20b496399648.png",
+          imgUrl: "https://i.ibb.co/Fh5bMBy/profile.png",
           projectUrl: "https://github.com/LorenzoBondan/SocialNetwork",
           images:[
             {
-              url: "",
+              url: "https://i.ibb.co/Fh5bMBy/profile.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/VmSrBZy/feed1.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/7VH7RWm/feed2.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/vJnC3c5/feed3.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/p1Sk5Hk/users.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/VDKqKYq/newpost.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/RBLd3Gq/following.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/ZfcJxXD/followers.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/JnPzvsW/editprofile.png",
+            },
+            {
+              url: "https://i.ibb.co/6y3Gdf2/admin.png",
+            },
+            {
+              url: "https://i.ibb.co/9N2JCy1/admin-Crud.png",
+            },
+            {
+              url: "https://i.ibb.co/Qj7b6Y1/home.png",
+            },
+            {
+              url: "https://i.ibb.co/xHWbN2p/login.png",
+            },
+            {
+              url: "https://i.ibb.co/swnftn7/register.png",
+            },
+            {
+              url: "https://i.ibb.co/n74HWM0/asta.png",
             },
           ]
         },
         {
           title: "Soccer League Simulator",
           description: "A summary and a simulator of the brazilian soccer league",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/233791700-2fc0d1e8-5224-482c-ba43-3b6021b12a7e.png",
+          imgUrl: "https://i.ibb.co/jhncn2T/Captura-de-tela-2023-04-20-150146.png",
           projectUrl: "https://github.com/LorenzoBondan/SoccerLeague",
           images:[
             {
-              url: "",
+              url: "https://i.ibb.co/jhncn2T/Captura-de-tela-2023-04-20-150146.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/V9B43Ff/Captura-de-tela-2023-04-20-150244.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/pKnVNCn/Captura-de-tela-2023-04-20-153356.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/8dSMYsD/Captura-de-tela-2023-04-20-150124.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/s9KnjJc/Captura-de-tela-2023-04-20-150303.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/hmQm4ZC/Captura-de-tela-2023-04-20-150317.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/Bc2ccdB/Captura-de-tela-2023-04-20-150353.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/6HkmdW8/Captura-de-tela-2023-04-20-150412.png",
             },
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/tM6XtnG/asta.png",
             },
           ]
         },
         {
           title: "High School Class",
           description: "A summary of the author's high school class",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/219984126-4d08a00e-a9f5-4b8a-a803-e8deefd8da9e.png",
+          imgUrl: "https://i.ibb.co/dPrdFVd/highschoolhome.png",
           projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students",
           images:[
             {
-              url: "",
+              url: "https://i.ibb.co/dPrdFVd/highschoolhome.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/jzzY6J9/highschoolstudents.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/JHbSFzP/highschoolstudentdetails.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/0ndQVsZ/highschoolstudentdetailscomments.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/rsD8yP6/moments.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/Cty7DfR/countdown.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/nnGv5sN/admin.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/zFb9V32/login.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/f13TRbX/asta.png",
             },
           ]
         },
         {
           title: "University",
           description: "A university project where students can subscribe to courses and class sections of the subjects.",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/239691813-a33afe1c-557f-44e2-8d0a-56ec155b1d3b.png",
+          imgUrl: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
           projectUrl: "https://github.com/LorenzoBondan/University",
           images:[
             {
-              url: "",
+              url: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/nQvTDfS/Captura-de-tela-2023-05-20-103736.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/YjtLxYp/Captura-de-tela-2023-05-20-103511.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/fMK0nkR/Captura-de-tela-2023-05-20-103659.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/0QWJRw3/Captura-de-tela-2023-05-20-103546.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/BcXrNGm/Captura-de-tela-2023-05-20-103615.png",
             },
             {
-              url: "",
-            },
-            {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/zbtML4q/Captura-de-tela-2023-05-20-110343.png",
             },
           ]
         },
         {
           title: "BarberShop",
           description: "A BarberShop where clients can create new appointments with their preferred barber at a convenient time for them.",
-          imgUrl: "https://user-images.githubusercontent.com/105743965/244556720-0d134571-8bab-473a-a27b-016248f89d39.png",
+          imgUrl: "https://i.ibb.co/QQtvB1r/home1.png",
           projectUrl: "https://github.com/LorenzoBondan/BarberShop",
           images:[
             {
-              url: "",
+              url: "https://i.ibb.co/QQtvB1r/home1.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/7QY2ydP/home2.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/t3TppKM/home3.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/K7vWC3R/home4.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/9sjJftw/newappointment.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/ZSSwr5W/myappointments.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/09FgvS7/admin.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/8s8RSwq/admin-crud.png",
             },
             {
-              url: "",
+              url: "https://i.ibb.co/wBV6cKV/login.png",
+            },
+            {
+              url: "https://i.ibb.co/jbFQ1gg/register.png",
+            },
+            {
+              url: "https://i.ibb.co/9Z5VcWJ/class-diagram.png",
             },
           ]
         },
@@ -241,10 +262,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/dscatalog",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/D97jYg9/dscatalog.png",
             },
           ]
         },
@@ -255,10 +273,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/MovieFlix",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/0KHHbfd/movieflix.png",
             },
           ]
         },
@@ -269,10 +284,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/dslearn",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/8g1Mw0c/dslearn.png",
             },
           ]
         },
@@ -283,10 +295,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/Delivery",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/6wLM9Vm/deliver.png",
             },
           ]
         },
@@ -301,10 +310,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/DSSales",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/txGmKd0/dssales.png",
             },
           ]
         },
@@ -315,10 +321,7 @@ const Projects = () => {
         projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User",
         images:[
           {
-            url: "",
-          },
-          {
-            url: "",
+            url: "https://i.ibb.co/HxT2qFd/githubuser.png",
           },
         ]
         },
@@ -329,10 +332,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/qYvXjTc/dosimetria.png",
             },
           ]
         },
@@ -343,10 +343,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/Estrutura-Pintura",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/TgLSn4b/pintura.png",
             },
           ]
         },
@@ -357,10 +354,7 @@ const Projects = () => {
           projectUrl: "https://github.com/LorenzoBondan/Estrutura-Embalagem",
           images:[
             {
-              url: "",
-            },
-            {
-              url: "",
+              url: "https://i.ibb.co/X7w5RYs/fantasma.png",
             },
           ]
         }

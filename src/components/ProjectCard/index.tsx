@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -14,6 +14,8 @@ type Props = {
 }
 
 export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: Props) => {
+
+  const [loadedImages, setLoadedImages] = useState<{ url: string; width: number; height: number }[]>([]);
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -42,7 +44,23 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: 
       breakpoint: { max: 464, min: 0 },
       items: 1
     }
-};
+  };
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const loadedImagesData = await Promise.all(
+        images.map(async (image) => {
+          const img = new Image();
+          img.src = image.url;
+          await img.decode();
+          return { url: image.url, width: img.width, height: img.height };
+        })
+      );
+      setLoadedImages(loadedImagesData);
+    };
+
+    loadImages();
+  }, [images]);
 
   return (
     <div className='project-card'>
@@ -68,11 +86,16 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: 
                     <p>{description}</p>
                   </div>
                   <div className='project-modal-carousel-container'>
-                    <Carousel responsive={responsive} infinite={true} className="project-images-slider" autoPlay={true} autoPlaySpeed={3000}>
-                      {images.map((image, index) => (
-                        <div className='project-modal-image-container' key={index}>
-                          <img src={image.url} alt=""/>
-                        </div>
+                    <Carousel responsive={responsive} showDots={true} arrows={true} infinite={true} className="project-images-slider" autoPlay={true} autoPlaySpeed={3000}>
+                      {loadedImages.map((image, index) => (
+                        <img
+                          key={index}
+                          src={image.url}
+                          alt=""
+                          className={image.width > image.height ? 'less-wide' : 'wider'}
+                          style={{ maxHeight: 600 }}
+                          crossOrigin="anonymous"
+                        />
                       ))}
                     </Carousel>
                   </div>
