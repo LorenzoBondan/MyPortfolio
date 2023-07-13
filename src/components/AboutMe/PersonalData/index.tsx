@@ -103,7 +103,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>Mechanical Engineering</h4>
-                          <h6>Current: 100% completed</h6>
+                          <h6>Graduated</h6>
                         </div>
                       </div>
                       <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Sagrado Coração de Jesus" data-tooltip-id="tooltip-personal-data">

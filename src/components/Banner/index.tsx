@@ -91,7 +91,16 @@ const Banner = () => {
                 <TrackVisibility>
                     {({ isVisible }) => (
                         <div className={isVisible ? 'animate__animated animate__bounce banner-button-zone' : 'banner-button-zone'}>
-                            <button className='btn btn-primary content-button' onClick={() => {downloadCVFile(PDF_FILE_URL)}}>Download PDF CV</button>
+                            <button 
+                                className='btn btn-primary content-button' 
+                                onClick={() => {downloadCVFile(PDF_FILE_URL)}}
+                            >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Download PDF CV
+                            </button>
                         </div>
                     )}    
                 </TrackVisibility>

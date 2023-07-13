@@ -1,5 +1,6 @@
 import './styles.css';
 import AsthaLogo from 'assets/images/astah-logo.png';
+import PostmanLogo from 'assets/images/postman-icon.png';
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 
 const Tools = () => {
@@ -20,10 +21,6 @@ const Tools = () => {
         {
             name: "Visual Studio",
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"
-        },
-        {
-            name: "Postman",
-            imgUrl: "https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.png"
         },
         {
             name: "Npm",
@@ -58,6 +55,10 @@ const Tools = () => {
                 <li className='tool-item'>
                     <img src={AsthaLogo} alt="" data-tooltip-content="Astah" data-tooltip-id="Astah-tooltip"/>
                     <ReactTooltip id="Astah-tooltip" place="top"/>
+                </li>
+                <li className='tool-item'>
+                    <img src={PostmanLogo} alt="" data-tooltip-content="Postman" data-tooltip-id="Postman-tooltip"/>
+                    <ReactTooltip id="Postman-tooltip" place="top"/>
                 </li>
             </ul>
         </div>

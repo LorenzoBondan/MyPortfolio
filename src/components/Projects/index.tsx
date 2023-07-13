@@ -148,37 +148,43 @@ const Projects = () => {
           ]
         },
         {
-          title: "High School Class",
-          description: "A summary of the author's high school class",
-          imgUrl: "https://i.ibb.co/dPrdFVd/highschoolhome.png",
-          projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students",
+          title: "RecipeShare",
+          description: "Share, discover and avaliate new recipes",
+          imgUrl: "https://user-images.githubusercontent.com/105743965/253373568-2f41001b-afe5-4f4d-a6ee-6f1037d99d75.png",
+          projectUrl: "https://github.com/LorenzoBondan/RecipeShare",
           images:[
             {
-              url: "https://i.ibb.co/dPrdFVd/highschoolhome.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373568-2f41001b-afe5-4f4d-a6ee-6f1037d99d75.png",
             },
             {
-              url: "https://i.ibb.co/jzzY6J9/highschoolstudents.png",
+              url: "https://user-images.githubusercontent.com/105743965/253372991-7e7934cc-6f68-46f5-9273-ca444ec993da.png",
             },
             {
-              url: "https://i.ibb.co/JHbSFzP/highschoolstudentdetails.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373010-6e33155e-0f39-426f-bb40-66884fffae37.png",
             },
             {
-              url: "https://i.ibb.co/0ndQVsZ/highschoolstudentdetailscomments.png",
+              url: "https://user-images.githubusercontent.com/105743965/253372933-b09d10d3-1b0e-4fbe-a891-3901a0202a35.png",
             },
             {
-              url: "https://i.ibb.co/rsD8yP6/moments.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373038-713efd9d-47dc-452c-9ef5-ef3c167eaf01.png",
             },
             {
-              url: "https://i.ibb.co/Cty7DfR/countdown.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373066-38bae17a-3449-415f-bd6e-3f4f1350cc11.png",
             },
             {
-              url: "https://i.ibb.co/nnGv5sN/admin.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373086-a6bfa140-ac85-470e-a677-f135393c576a.png",
             },
             {
-              url: "https://i.ibb.co/zFb9V32/login.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373110-494f6c2f-c80e-4121-8963-58297d351d77.png",
             },
             {
-              url: "https://i.ibb.co/f13TRbX/asta.png",
+              url: "https://user-images.githubusercontent.com/105743965/253373128-8e2a053f-e8ec-4cb3-9057-8e373977f9dc.png",
+            },
+            {
+              url: "https://user-images.githubusercontent.com/105743965/253373138-0216926d-7350-4a94-9812-33077b6b24af.png",
+            },
+            {
+              url: "https://user-images.githubusercontent.com/105743965/253373164-42bcf9ba-dc80-44db-9595-2ddf1060b6b2.png",
             },
           ]
         },
@@ -230,22 +236,22 @@ const Projects = () => {
               url: "https://i.ibb.co/K7vWC3R/home4.png",
             },
             {
-              url: "https://i.ibb.co/9sjJftw/newappointment.png",
+              url: "https://user-images.githubusercontent.com/105743965/250364680-6cb50160-1b82-43af-a6a7-aea9bd65becb.png",
             },
             {
-              url: "https://i.ibb.co/ZSSwr5W/myappointments.png",
+              url: "https://user-images.githubusercontent.com/105743965/250364682-d3e43aff-0f34-4dd1-82b1-2be622c3a9e3.png",
             },
             {
-              url: "https://i.ibb.co/09FgvS7/admin.png",
+              url: "https://user-images.githubusercontent.com/105743965/250364691-05924bf3-44be-419d-8df9-a7e342f975b2.png",
             },
             {
-              url: "https://i.ibb.co/8s8RSwq/admin-crud.png",
+              url: "https://user-images.githubusercontent.com/105743965/250364697-c37d2445-a79e-4815-9415-c9c8c12baebf.png",
             },
             {
-              url: "https://i.ibb.co/wBV6cKV/login.png",
+              url: "https://user-images.githubusercontent.com/105743965/250364702-09e3166c-bdbb-41e3-9c6d-81765a7e299b.png",
             },
             {
-              url: "https://i.ibb.co/jbFQ1gg/register.png",
+              url: "https://user-images.githubusercontent.com/105743965/250364712-d5925680-867b-496b-8fb7-f290a6acaacb.png",
             },
             {
               url: "https://i.ibb.co/9Z5VcWJ/class-diagram.png",
@@ -255,6 +261,41 @@ const Projects = () => {
     ]
 
     const projects2 = [
+        {
+          title: "High School Class",
+          description: "A summary of the author's high school class",
+          imgUrl: "https://i.ibb.co/dPrdFVd/highschoolhome.png",
+          projectUrl: "https://github.com/LorenzoBondan/HighSchool-Students",
+          images:[
+            {
+              url: "https://i.ibb.co/dPrdFVd/highschoolhome.png",
+            },
+            {
+              url: "https://i.ibb.co/jzzY6J9/highschoolstudents.png",
+            },
+            {
+              url: "https://i.ibb.co/JHbSFzP/highschoolstudentdetails.png",
+            },
+            {
+              url: "https://i.ibb.co/0ndQVsZ/highschoolstudentdetailscomments.png",
+            },
+            {
+              url: "https://i.ibb.co/rsD8yP6/moments.png",
+            },
+            {
+              url: "https://i.ibb.co/Cty7DfR/countdown.png",
+            },
+            {
+              url: "https://i.ibb.co/nnGv5sN/admin.png",
+            },
+            {
+              url: "https://i.ibb.co/zFb9V32/login.png",
+            },
+            {
+              url: "https://i.ibb.co/f13TRbX/asta.png",
+            },
+          ]
+        },
         {
           title: "DS Catalog",
           description: "A catalog of products for sale",
@@ -274,17 +315,6 @@ const Projects = () => {
           images:[
             {
               url: "https://i.ibb.co/0KHHbfd/movieflix.png",
-            },
-          ]
-        },
-        {
-          title: "DS Learn",
-          description: "Backend project of a programming school website",
-          imgUrl: "https://i.ibb.co/8g1Mw0c/dslearn.png",
-          projectUrl: "https://github.com/LorenzoBondan/dslearn",
-          images:[
-            {
-              url: "https://i.ibb.co/8g1Mw0c/dslearn.png",
             },
           ]
         },
@@ -310,6 +340,17 @@ const Projects = () => {
           images:[
             {
               url: "https://i.ibb.co/txGmKd0/dssales.png",
+            },
+          ]
+        },
+        {
+          title: "DS Learn",
+          description: "Backend project of a programming school website",
+          imgUrl: "https://i.ibb.co/8g1Mw0c/dslearn.png",
+          projectUrl: "https://github.com/LorenzoBondan/dslearn",
+          images:[
+            {
+              url: "https://i.ibb.co/8g1Mw0c/dslearn.png",
             },
           ]
         },
