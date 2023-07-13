@@ -10,14 +10,11 @@
 
 .skills-box{
     padding: 5px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px #212121;
-    background-color: #111111;
-    background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(360deg, #ff0052 -150%, rgba(0,0,0,0.5) 50%);
 }
 
 .skills-box h2{
@@ -53,7 +50,6 @@
 }
 
 @media(min-width:576px){
-
     .skills-container{
         padding: 10px;
     }
@@ -84,8 +80,6 @@
 }
 
 @media(min-width:768px){
-
-    
     .skills-slider{
         width: 680px;
     }
@@ -115,16 +109,6 @@
     
     .skills-box{
         padding: 20px;
-        border-radius: 20px;
-        box-shadow: 5px 5px 15px #212121;
-        background-color: #111111;
-        background: linear-gradient(360deg, #ff0052 -100%, #121212 50%);
-    }
-    
-    .skills-box p{
-        color: #ff0052;
-        margin-top: 10px;
-        margin-bottom: 50px;
     }
     
     .skills-slider{
@@ -136,5 +120,4 @@
         width: 200px;
         margin-bottom: 10px;
     }
-    
 }

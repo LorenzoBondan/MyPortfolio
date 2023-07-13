@@ -21,7 +21,7 @@ function ageCalc(date: string | undefined) {
 const PersonalData = () => {
   return (
     <>
-      <div className="personal-container" id="aboutMe">
+      <div className="personal-container base-card" id="aboutMe">
         <div className="personal-data-container">
           <h2 style={{width:"100%"}}>Personal Data</h2>
           <h4>
@@ -87,8 +87,8 @@ const PersonalData = () => {
                   <span className='separator'></span>
                   <div className="row">
                     <div className="college-container">
-                      <ReactTooltip id="tooltip-personal-data" place="top"/>
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
+                      <ReactTooltip id="tooltip-personal-data" place="top" style={{zIndex:"1"}}/>
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={ucsLogo} alt="UCS"/>
                         </div>
@@ -97,7 +97,7 @@ const PersonalData = () => {
                           <h6>Current: 52% completed</h6>
                         </div>
                       </div>
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={ucsLogo} alt="UCS" />
                         </div>
@@ -106,7 +106,7 @@ const PersonalData = () => {
                           <h6>Graduated</h6>
                         </div>
                       </div>
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Sagrado Coração de Jesus" data-tooltip-id="tooltip-personal-data">
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Sagrado Coração de Jesus" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={logoSagrado} alt="Sagrado" />
                         </div>
@@ -114,7 +114,7 @@ const PersonalData = () => {
                           <h4>High School</h4>
                         </div>
                       </div>
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Marista Nossa Senhora de Aparecida" data-tooltip-id="tooltip-personal-data">
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Marista Nossa Senhora de Aparecida" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src="https://99prod.s3.amazonaws.com/uploads/image/file/900202/c5977ec933c59bf4251ad1010b3b22df.jpg" alt="Marista"/>
                         </div>
@@ -122,7 +122,7 @@ const PersonalData = () => {
                           <h4>Elementary School</h4>
                         </div>
                       </div>
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="CNA - English School" data-tooltip-id="tooltip-personal-data">
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="CNA - English School" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={cnaLogo} alt="CNA" />
                         </div>
@@ -139,7 +139,7 @@ const PersonalData = () => {
                   <span className='separator'></span>
                   <div className="row">
                     <div className="professional-container">
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Todeschini SA" data-tooltip-id="tooltip-personal-data">
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Todeschini SA" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={logoTodeschini} alt="UCS" />
                         </div>
@@ -148,7 +148,7 @@ const PersonalData = () => {
                           <h6>1 year and 3 months</h6>
                         </div>
                       </div>
-                      <div className="college-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="WEG Cestari" data-tooltip-id="tooltip-personal-data">
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="WEG Cestari" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={logoWeg} alt="UCS" />
                         </div>

@@ -401,7 +401,7 @@ const Projects = () => {
     ]
 
     return(
-        <div className='projects-container' id='projects'>
+        <div className='projects-container base-card' id='projects'>
             <h2 style={{marginBottom:"0"}}>Projects</h2>
             <span className='separator'></span>
             <div className="row">

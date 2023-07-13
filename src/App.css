@@ -42,9 +42,11 @@ ul {
 }
 
 .base-card{
+    box-shadow: 0 0 10px 1px #212121;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px silver;
-    background-color: #121212;
+    border: 1px solid rgba(255, 255, 255, .15);
+    background-color: transparent !important;
+    backdrop-filter: blur(3px);
 }
 
 /* TEXTBOX */
