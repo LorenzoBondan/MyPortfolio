@@ -1,39 +1,10 @@
 .personal-container{
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 5px;
     background: linear-gradient(180deg, #ff0052 -100%, rgba(0,0,0,0.5) 25%);
-    width: 320px;
+    width: auto;
     margin-top: 50px;
-}
-
-.personal-data-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border-radius: 20px 0px 0px 20px;
-    width: 300px;
-    background-color: rgba(0,0,0,0.5) ;
-    width: 100%;
-}
-
-.personal-data-container h2{
-    margin-bottom: 20px;
-    border-bottom: 1px solid silver;
-    text-shadow: 1px 1px 1px black;
-}
-
-.personal-data-container h4{
-    font-weight: 400;
-    color: #646464;
-    font-size: 18px;
-}
-
-.personal-data-container span{
-    color: white;
-    font-weight: 400;
-    margin-left: 10px;
 }
 
 .education-and-experience-container{
@@ -42,6 +13,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 .college-container, .professional-container{
@@ -52,11 +24,15 @@
     padding: 30px;
 }
 
-.education-container h2, .experience-container h2{
+.education-container h2, .experience-container h2, .languages-container h2{
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.languages-container h4{
+    text-align: left;
 }
 
 .college-card {
@@ -113,11 +89,6 @@
 }
 
 @media(min-width:576px){
-    
-    .personal-container{
-        width: 520px;
-    }
-
     .college-card {
         height: 140px;
         width: 450px;
@@ -141,18 +112,6 @@
     }
 }
 
-@media(min-width:768px){
-    .personal-container{
-        width: 700px;
-    }
-}
-
-@media(min-width:992px){
-    .personal-container{
-        width: 850px;
-    }
-}
-
 @media(min-width:1200px){
     .personal-container{
         display: flex;
@@ -161,39 +120,12 @@
         margin-top: 50px;
     }
     
-    .personal-data-container{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
-        border-radius: 20px 0px 0px 20px;
-        width: 260px;
-    }
-    
-    .personal-data-container h2{
-        margin-bottom: 20px;
-        border-bottom: 1px solid silver;
-    }
-    
-    .personal-data-container h4{
-        font-weight: 400;
-        color: #646464;
-        font-size: 18px;
-    }
-    
-    .personal-data-container span{
-        color: white;
-        font-weight: 400;
-        margin-left: 10px;
-    }
-    
     .education-and-experience-container{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: space-evenly;
         text-align: center;
-        margin-left: 50px;
     }
     
     .college-container, .professional-container{

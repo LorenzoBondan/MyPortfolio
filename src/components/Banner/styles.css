@@ -12,6 +12,14 @@
     width: 100%;
 }
 
+.banner-first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
 .banner-img-container {
     padding: 5px;
     border-radius: 50%;
@@ -35,10 +43,43 @@
     position: absolute;
 }
 
+.home-separator{
+    width: 75%;
+    height: 1px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+.personal-data-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(1px);
+    width: 100%;
+}
+
+.personal-data-container h4{
+    font-weight: 400;
+    color: #646464;
+    font-size: 18px;
+}
+
+.personal-data-container span{
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
 .banner-content-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0,0,0,0.75);
+    backdrop-filter: blur(1px);
 }
 
 .banner-content-container h1{
@@ -203,6 +244,10 @@
         height: 300px;
         width: 300px;
     }
+
+    .personal-container{
+        width: 520px;
+    }
     
     .banner-content-container h1{
         font-size: 28px;
@@ -228,6 +273,10 @@
         height: 400px;
         width: 400px;
     }
+
+    .personal-container{
+        width: 700px;
+    }
     
     .banner-content-container h1{
         font-size: 36px;
@@ -244,9 +293,14 @@
 }
 
 @media(min-width:992px){
-        .banner-content-container p{
+    .personal-container{
+        width: 850px;
+    }
+
+    .banner-content-container p{
         width: 650px;
     }
+
 }
 
 @media(min-width:1200px){
@@ -283,6 +337,27 @@
         width: 95%;
         border: 1px solid rgba(255,255,255,0.5);
         position: absolute;
+    }
+
+    .personal-data-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        border-radius: 20px 0px 0px 20px;
+        width: 260px;
+    }
+    
+    .personal-data-container h4{
+        font-weight: 400;
+        color: #646464;
+        font-size: 18px;
+    }
+    
+    .personal-data-container span{
+        color: white;
+        font-weight: 400;
+        margin-left: 10px;
     }
     
     .banner-content-container{

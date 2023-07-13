@@ -4,6 +4,10 @@ import './styles.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import CardLoader from 'components/CardLoader';
+import { AiFillHome } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
+import { AiFillPhone } from 'react-icons/ai';
+import { BsCalendarDateFill } from 'react-icons/bs';
 
 const PDF_FILE_URL = "https://lorenzobondanportfolio.vercel.app/LorenzoBondan_CV.pdf";
 
@@ -70,14 +74,52 @@ const Banner = () => {
         };
       }, []);
 
+      function ageCalc(date: string | undefined) {
+        var miliseconds = date
+          ? new Date().getTime() - new Date(date).getTime()
+          : new Date().getTime();
+        var years = miliseconds / 31556952000;
+        return Math.trunc(years).toString();
+      }
+
     return(
         <div className='banner-container' id='home'>
-            <div className='banner-img-container '>
-                {!imageLoaded ? (
-                    <div><CardLoader/></div>
-                ) : (
-                    <img src="https://i.ibb.co/FDgZNXV/lorenzooficial.png" alt=""/>
-                )}
+            <div className='banner-first-container'>
+                <div className='banner-img-container'>
+                    {!imageLoaded ? (
+                        <div><CardLoader/></div>
+                    ) : (
+                        <img src="https://i.ibb.co/FDgZNXV/lorenzooficial.png" alt=""/>
+                    )}
+                </div>
+                <span className='home-separator'></span>
+                <div className="personal-data-container">   
+                    <h4>
+                        <i>
+                        <MdEmail />
+                        </i>
+                        <span>Lbbondan@gmail.com</span>
+                    </h4>
+                    <h4>
+                        <i>
+                        <AiFillPhone />
+                        </i>
+                        <span>+55 54 99657-0555</span>
+                    </h4>
+
+                    <h4>
+                        <i>
+                        <AiFillHome />
+                        </i>
+                        <span>Bento Gonçalves - RS</span>
+                    </h4>
+                    <h4>
+                        <i>
+                        <BsCalendarDateFill />
+                        </i>
+                        <span>{ageCalc('1999-07-17')} years old</span>
+                    </h4>
+                </div>
             </div>
             <div className='banner-content-container'>
                 <h1>Hello! Welcome to my portfolio</h1>

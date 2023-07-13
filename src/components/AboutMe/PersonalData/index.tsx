@@ -1,7 +1,3 @@
-import { AiFillHome } from 'react-icons/ai';
-import { MdEmail } from 'react-icons/md';
-import { AiFillPhone } from 'react-icons/ai';
-import { BsCalendarDateFill } from 'react-icons/bs';
 import ucsLogo from 'assets/images/ucs.jpg';
 import logoSagrado from 'assets/images/logo-sagrado.png';
 import logoTodeschini from 'assets/images/todeschini.png';
@@ -10,78 +6,45 @@ import { Tooltip as ReactTooltip } from 'react-tooltip'
 import cnaLogo from 'assets/images/cna-logo.jpg';
 import './styles.css';
 
-function ageCalc(date: string | undefined) {
-  var miliseconds = date
-    ? new Date().getTime() - new Date(date).getTime()
-    : new Date().getTime();
-  var years = miliseconds / 31556952000;
-  return Math.trunc(years).toString();
-}
-
 const PersonalData = () => {
   return (
     <>
-      <div className="personal-container base-card" id="aboutMe">
-        <div className="personal-data-container">
-          <h2 style={{width:"100%"}}>Personal Data</h2>
-          <h4>
-            <i>
-              <AiFillHome />
-            </i>
-            <span>Bento Gonçalves - RS</span>
-          </h4>
-          <h4>
-            <i>
-              <AiFillPhone />
-            </i>
-            <span>+55 54 99657-0555</span>
-          </h4>
-          <h4>
-            <i>
-              <MdEmail />
-            </i>
-            <span>Lbbondan@gmail.com</span>
-          </h4>
-          <h4>
-            <i>
-              <BsCalendarDateFill />
-            </i>
-            <span>Age -  {ageCalc('1999-07-17')}</span>
-          </h4>
-
-          <h2 style={{ marginTop: '30px', width:"100%" }}>Languages</h2>
-          <h4>
-            <i>
-              <img
-                src="https://em-content.zobj.net/thumbs/120/apple/325/flag-united-kingdom_1f1ec-1f1e7.png"
-                alt=""
-                style={{ height: '25px', marginRight: '8px' }}
-              />
-            </i>
-            Advanced
-          </h4>
-          <h4>
-            <i>
-              <img
-                src="https://em-content.zobj.net/thumbs/120/apple/325/flag-spain_1f1ea-1f1f8.png"
-                alt=""
-                style={{ height: '25px', marginRight: '8px' }}
-              />
-            </i>
-            Intermediate
-          </h4>
-          <h4>
-            <i>
-              <img
-                src="https://em-content.zobj.net/thumbs/120/apple/325/flag-brazil_1f1e7-1f1f7.png"
-                alt=""
-                style={{ height: '25px', marginRight: '8px' }}
-              />
-            </i>
-            Native
-          </h4>
-        </div>
-              <div className="education-and-experience-container">
+      <div className="personal-container" id="aboutMe">
+            <div className="education-and-experience-container">
+              <div className="languages-container">
+                <h2>Languages</h2>
+                <span className='separator'></span>
+                <h4>
+                  <i>
+                    <img
+                      src="https://em-content.zobj.net/thumbs/120/apple/325/flag-united-kingdom_1f1ec-1f1e7.png"
+                      alt=""
+                      style={{ height: '25px', marginRight: '8px' }}
+                    />
+                  </i>
+                  Advanced
+                </h4>
+                <h4>
+                  <i>
+                    <img
+                      src="https://em-content.zobj.net/thumbs/120/apple/325/flag-spain_1f1ea-1f1f8.png"
+                      alt=""
+                      style={{ height: '25px', marginRight: '8px' }}
+                    />
+                  </i>
+                  Intermediate
+                </h4>
+                <h4>
+                  <i>
+                    <img
+                      src="https://em-content.zobj.net/thumbs/120/apple/325/flag-brazil_1f1e7-1f1f7.png"
+                      alt=""
+                      style={{ height: '25px', marginRight: '8px' }}
+                    />
+                  </i>
+                  Native
+                </h4>
+              </div>
                 <div className="education-container">
                   <h2>Education</h2>
                   <span className='separator'></span>

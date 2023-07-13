@@ -18,7 +18,7 @@
 }
 
 .skills-box h2{
-    font-size: 18px;
+    margin-top: 10px;
 }
 
 .skills-box p{
@@ -52,10 +52,6 @@
 @media(min-width:576px){
     .skills-container{
         padding: 10px;
-    }
-    
-    .skills-box h2{
-        font-size: 26px;
     }
     
     .skills-box p{
