@@ -71,6 +71,7 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: 
           <div className='card-title-bottom'>
             <h3>{title}</h3>
             <p>{description}</p>
+          </div>
             <div className='button-zone'>
               <button className='btn btn-primary' onClick={openModal}>Details</button>
               <Modal 
@@ -108,7 +109,7 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: 
                 </div>
               </Modal>
             </div>
-          </div>
+          
       </div>
 </div>
   )

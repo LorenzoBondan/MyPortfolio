@@ -78,7 +78,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0,0,0,0.75);
     backdrop-filter: blur(1px);
 }
 
@@ -102,6 +101,7 @@
     margin-bottom: 80px;
     flex-wrap: wrap;
     width: 250px;
+    background-color: rgba(0,0,0,0.75);
 }
 
 .banner-content-container span{

@@ -112,41 +112,7 @@ const Projects = () => {
             },
           ]
         },
-        {
-          title: "Soccer League Simulator",
-          description: "A summary and a simulator of the brazilian soccer league",
-          imgUrl: "https://i.ibb.co/jhncn2T/Captura-de-tela-2023-04-20-150146.png",
-          projectUrl: "https://github.com/LorenzoBondan/SoccerLeague",
-          images:[
-            {
-              url: "https://i.ibb.co/jhncn2T/Captura-de-tela-2023-04-20-150146.png",
-            },
-            {
-              url: "https://i.ibb.co/V9B43Ff/Captura-de-tela-2023-04-20-150244.png",
-            },
-            {
-              url: "https://i.ibb.co/pKnVNCn/Captura-de-tela-2023-04-20-153356.png",
-            },
-            {
-              url: "https://i.ibb.co/8dSMYsD/Captura-de-tela-2023-04-20-150124.png",
-            },
-            {
-              url: "https://i.ibb.co/s9KnjJc/Captura-de-tela-2023-04-20-150303.png",
-            },
-            {
-              url: "https://i.ibb.co/hmQm4ZC/Captura-de-tela-2023-04-20-150317.png",
-            },
-            {
-              url: "https://i.ibb.co/Bc2ccdB/Captura-de-tela-2023-04-20-150353.png",
-            },
-            {
-              url: "https://i.ibb.co/6HkmdW8/Captura-de-tela-2023-04-20-150412.png",
-            },
-            {
-              url: "https://i.ibb.co/tM6XtnG/asta.png",
-            },
-          ]
-        },
+
         {
           title: "RecipeShare",
           description: "Share, discover and avaliate new recipes",
@@ -188,35 +154,7 @@ const Projects = () => {
             },
           ]
         },
-        {
-          title: "University",
-          description: "A university project where students can subscribe to courses and class sections of the subjects.",
-          imgUrl: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
-          projectUrl: "https://github.com/LorenzoBondan/University",
-          images:[
-            {
-              url: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
-            },
-            {
-              url: "https://i.ibb.co/nQvTDfS/Captura-de-tela-2023-05-20-103736.png",
-            },
-            {
-              url: "https://i.ibb.co/YjtLxYp/Captura-de-tela-2023-05-20-103511.png",
-            },
-            {
-              url: "https://i.ibb.co/fMK0nkR/Captura-de-tela-2023-05-20-103659.png",
-            },
-            {
-              url: "https://i.ibb.co/0QWJRw3/Captura-de-tela-2023-05-20-103546.png",
-            },
-            {
-              url: "https://i.ibb.co/BcXrNGm/Captura-de-tela-2023-05-20-103615.png",
-            },
-            {
-              url: "https://i.ibb.co/zbtML4q/Captura-de-tela-2023-05-20-110343.png",
-            },
-          ]
-        },
+
         {
           title: "BarberShop",
           description: "A BarberShop where clients can create new appointments with their preferred barber at a convenient time for them.",
@@ -261,6 +199,70 @@ const Projects = () => {
     ]
 
     const projects2 = [
+        {
+          title: "Soccer League Simulator",
+          description: "A summary and a simulator of the brazilian soccer league",
+          imgUrl: "https://i.ibb.co/jhncn2T/Captura-de-tela-2023-04-20-150146.png",
+          projectUrl: "https://github.com/LorenzoBondan/SoccerLeague",
+          images:[
+            {
+              url: "https://i.ibb.co/jhncn2T/Captura-de-tela-2023-04-20-150146.png",
+            },
+            {
+              url: "https://i.ibb.co/V9B43Ff/Captura-de-tela-2023-04-20-150244.png",
+            },
+            {
+              url: "https://i.ibb.co/pKnVNCn/Captura-de-tela-2023-04-20-153356.png",
+            },
+            {
+              url: "https://i.ibb.co/8dSMYsD/Captura-de-tela-2023-04-20-150124.png",
+            },
+            {
+              url: "https://i.ibb.co/s9KnjJc/Captura-de-tela-2023-04-20-150303.png",
+            },
+            {
+              url: "https://i.ibb.co/hmQm4ZC/Captura-de-tela-2023-04-20-150317.png",
+            },
+            {
+              url: "https://i.ibb.co/Bc2ccdB/Captura-de-tela-2023-04-20-150353.png",
+            },
+            {
+              url: "https://i.ibb.co/6HkmdW8/Captura-de-tela-2023-04-20-150412.png",
+            },
+            {
+              url: "https://i.ibb.co/tM6XtnG/asta.png",
+            },
+          ]
+        },
+        {
+          title: "University",
+          description: "A university project where students can subscribe to courses and class sections of the subjects.",
+          imgUrl: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
+          projectUrl: "https://github.com/LorenzoBondan/University",
+          images:[
+            {
+              url: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
+            },
+            {
+              url: "https://i.ibb.co/nQvTDfS/Captura-de-tela-2023-05-20-103736.png",
+            },
+            {
+              url: "https://i.ibb.co/YjtLxYp/Captura-de-tela-2023-05-20-103511.png",
+            },
+            {
+              url: "https://i.ibb.co/fMK0nkR/Captura-de-tela-2023-05-20-103659.png",
+            },
+            {
+              url: "https://i.ibb.co/0QWJRw3/Captura-de-tela-2023-05-20-103546.png",
+            },
+            {
+              url: "https://i.ibb.co/BcXrNGm/Captura-de-tela-2023-05-20-103615.png",
+            },
+            {
+              url: "https://i.ibb.co/zbtML4q/Captura-de-tela-2023-05-20-110343.png",
+            },
+          ]
+        },
         {
           title: "High School Class",
           description: "A summary of the author's high school class",
@@ -307,6 +309,9 @@ const Projects = () => {
             },
           ]
         },
+    ]
+
+    const projects3 = [
         {
           title: "MovieFlix",
           description: "A movie site with reviews for registered members",
@@ -329,9 +334,6 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects3 = [
         {
           title: "DS Sales",
           description: "Dashboard of sales",
@@ -354,7 +356,10 @@ const Projects = () => {
             },
           ]
         },
-        {
+    ]
+
+    const projects4 = [
+      {
         title: "Search for Github User",
         description: "Application to fetch user data from github using Github API",
         imgUrl: "https://i.ibb.co/HxT2qFd/githubuser.png",
@@ -404,7 +409,6 @@ const Projects = () => {
         <div className='projects-container base-card' id='projects'>
             <h2 style={{marginBottom:"0"}}>Projects</h2>
             <span className='separator'></span>
-            <div className="row">
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5" id="pills-tab">
                     <Nav.Item>
@@ -415,6 +419,9 @@ const Projects = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fourth">Tab 4</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp">
@@ -466,9 +473,25 @@ const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
+                    <Tab.Pane eventKey="fourth">
+                      <Row className='row'>
+                        {
+                          projects4.map((project, index) => {
+                            return (
+                              <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
+                              </div>
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-            </div>
+
         </div>
     );
 }
