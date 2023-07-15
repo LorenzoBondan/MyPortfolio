@@ -244,13 +244,19 @@ const Projects = () => {
               url: "https://i.ibb.co/QDHP8Kx/Captura-de-tela-2023-05-20-103531.png",
             },
             {
-              url: "https://i.ibb.co/nQvTDfS/Captura-de-tela-2023-05-20-103736.png",
+              url: "https://i.ibb.co/jz289LV/courses.png",
             },
             {
-              url: "https://i.ibb.co/YjtLxYp/Captura-de-tela-2023-05-20-103511.png",
+              url: "https://i.ibb.co/f8b5B9N/course-details1.png",
             },
             {
-              url: "https://i.ibb.co/fMK0nkR/Captura-de-tela-2023-05-20-103659.png",
+              url: "https://i.ibb.co/BfcbhsC/course-details2.png",
+            },
+            {
+              url: "https://i.ibb.co/FKn9Kt0/course-details3.png",
+            },
+            {
+              url: "https://i.ibb.co/23rKGG4/profile.png",
             },
             {
               url: "https://i.ibb.co/0QWJRw3/Captura-de-tela-2023-05-20-103546.png",
@@ -306,6 +312,27 @@ const Projects = () => {
           images:[
             {
               url: "https://i.ibb.co/D97jYg9/dscatalog.png",
+            },
+            {
+              url: "https://i.ibb.co/5MjK4Qb/home.png",
+            },
+            {
+              url: "https://i.ibb.co/jvKPP7H/catalog.png",
+            },
+            {
+              url: "https://i.ibb.co/KN16Syk/product-details.png",
+            },
+            {
+              url: "https://i.ibb.co/wSg44Lz/login.png",
+            },
+            {
+              url: "https://i.ibb.co/jyWYVwP/admin.png",
+            },
+            {
+              url: "https://i.ibb.co/zG3xvZF/admin-crud-form.png",
+            },
+            {
+              url: "https://i.ibb.co/XZcQQmF/asta.png",
             },
           ]
         },
