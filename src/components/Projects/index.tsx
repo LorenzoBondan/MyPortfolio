@@ -1,4 +1,3 @@
-
 import { ProjectCard } from 'components/ProjectCard';
 import { Nav, Row, Tab } from 'react-bootstrap';
 import './styles.css';
@@ -180,7 +179,7 @@ const Projects = () => {
               url: "https://i.ibb.co/xFMD4fW/myappointments.png",
             },
             {
-              url: "https://i.ibb.co/pf9MLbV/admin.png",
+              url: "https://i.ibb.co/0KBSZK5/admin.png",
             },
             {
               url: "https://i.ibb.co/hH1HB1w/admin-crud.png",

@@ -109,7 +109,6 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, images }: 
                 </div>
               </Modal>
             </div>
-          
       </div>
 </div>
   )

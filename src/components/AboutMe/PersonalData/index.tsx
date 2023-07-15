@@ -8,7 +8,6 @@ import './styles.css';
 
 const PersonalData = () => {
   return (
-    <>
       <div className="personal-container" id="aboutMe">
             <div className="education-and-experience-container">
               <div className="languages-container">
@@ -125,7 +124,6 @@ const PersonalData = () => {
                 </div>
               </div>
             </div>
-    </>
   );
 };
 
