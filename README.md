@@ -4,16 +4,16 @@ https://lorenzobondanportfolio.vercel.app/
 ###
 
 #### Home page
-![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/c5214999-6d7f-47d9-931a-7856cdecd673)
+![home](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/039963df-ad0d-415a-84fe-8aeb50c8143b)
 
 #### Skills
-![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/46ace349-1db0-4b66-ac90-a342004c2129)
+![skills](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/70f5ccce-695b-4874-8cad-f7b7b1b4d4e4)
 
 #### Projects
-![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/63ce8476-c09b-491a-8bac-20de7cb13040)
+![projects](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/3ff47b00-e1fe-451f-82b9-4dd25c1a92c4)
 
 #### Project Details
-![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/2b81e8fa-5794-4ce0-8d41-92ef0aeff582)
+![project-details](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/b79ae1d5-e2e5-4792-afc2-6dc29671ef02)
 
 #### Courses
 ![image](https://github.com/LorenzoBondan/MyPortfolio/assets/105743965/5cae3270-b180-463a-999f-f373f8e9f521)
