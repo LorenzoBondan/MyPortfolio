@@ -59,6 +59,53 @@ const Projects = () => {
           ]
         },
         {
+          title: "BookTradeHub",
+          description: "A platform for book exchanges and fostering a community of literary sharing",
+          imgUrl: "https://i.ibb.co/FD3YmbC/exchanges-pending.png",
+          projectUrl: "https://github.com/LorenzoBondan/BookTradeHub",
+          images:[
+            {
+              url: "https://i.ibb.co/FD3YmbC/exchanges-pending.png",
+            },
+            {
+              url: "https://i.ibb.co/RBzmsTV/exchanges-disponible.png",
+            },
+            {
+              url: "https://i.ibb.co/8ctNwXW/exchanges-completed.png",
+            },
+            {
+              url: "https://i.ibb.co/4pVxZk9/disponible-exchanges.png",
+            },
+            {
+              url: "https://i.ibb.co/KD3j5vf/disponible-exchanges-offer.png",
+            },
+            {
+              url: "https://i.ibb.co/nfR9JGx/profile.png",
+            },
+            {
+              url: "https://i.ibb.co/hMXygh1/profile-add-book.png",
+            },
+            {
+              url: "https://i.ibb.co/YT1JYQb/profile-create-exchange.png",
+            },
+            {
+              url: "https://i.ibb.co/j3B2y6j/home.png",
+            },
+            {
+              url: "https://i.ibb.co/GTPhp0d/admin-crud.png",
+            },
+            {
+              url: "https://i.ibb.co/ZJNFr9v/login.png",
+            },
+            {
+              url: "https://i.ibb.co/KGJyqTm/register.png",
+            },
+            {
+              url: "https://i.ibb.co/P1FNJPT/asta.png",
+            },
+          ]
+        },
+        {
           title: "Social Network",
           description: "A Social Network where users can post, follow, like and comment their friends posts.",
           imgUrl: "https://i.ibb.co/Fh5bMBy/profile.png",
@@ -111,7 +158,6 @@ const Projects = () => {
             },
           ]
         },
-
         {
           title: "RecipeShare",
           description: "Share, discover and avaliate new recipes",
@@ -122,7 +168,7 @@ const Projects = () => {
               url: "https://i.ibb.co/z8KLnpr/recipes.png",
             },
             {
-              url: "https://ibb.co/pdqLqYG",
+              url: "https://i.ibb.co/0r5G5H8/recipe-details-1.png",
             },
             {
               url: "https://i.ibb.co/m0cfDxP/recipe-details-2.png",
@@ -153,7 +199,9 @@ const Projects = () => {
             },
           ]
         },
+    ]
 
+    const projects2 = [
         {
           title: "BarberShop",
           description: "A BarberShop where clients can create new appointments with their preferred barber at a convenient time for them.",
@@ -195,9 +243,6 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects2 = [
         {
           title: "Soccer League Simulator",
           description: "A summary and a simulator of the brazilian soccer league",
@@ -303,6 +348,9 @@ const Projects = () => {
             },
           ]
         },
+    ]
+
+    const projects3 = [
         {
           title: "DS Catalog",
           description: "A catalog of products for sale",
@@ -335,9 +383,6 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects3 = [
         {
           title: "MovieFlix",
           description: "A movie site with reviews for registered members",
@@ -371,6 +416,9 @@ const Projects = () => {
             },
           ]
         },
+    ]
+
+    const projects4 = [
         {
           title: "DS Learn",
           description: "Backend project of a programming school website",
@@ -382,28 +430,44 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects4 = [
-      {
-        title: "Search for Github User",
-        description: "Application to fetch user data from github using Github API",
-        imgUrl: "https://i.ibb.co/HxT2qFd/githubuser.png",
-        projectUrl: "https://github.com/LorenzoBondan/Search-for-GitHub-User",
-        images:[
-          {
-            url: "https://i.ibb.co/HxT2qFd/githubuser.png",
-          },
-        ]
-        },
         {
-          title: "Final Paper of Mechanical Engineering",
+          title: "Final undergraduate thesis of Mechanical Engineering",
           description: "Frequency and sound pressure level meter that generates dosimetry reports",
-          imgUrl: "https://i.ibb.co/qYvXjTc/dosimetria.png",
-          projectUrl: "https://github.com/LorenzoBondan",
+          imgUrl: "https://i.ibb.co/5cNyhyD/dosimetry.png",
+          projectUrl: "https://github.com/LorenzoBondan/FrequencyAnalyzer",
           images:[
             {
-              url: "https://i.ibb.co/qYvXjTc/dosimetria.png",
+              url: "https://i.ibb.co/5cNyhyD/dosimetry.png",
+            },
+            {
+              url: "https://i.ibb.co/9VzqH3T/frequency-domain.png",
+            },
+            {
+              url: "https://i.ibb.co/CQ7wyHR/log-domain.png",
+            },
+            {
+              url: "https://i.ibb.co/Nt4zbVS/time-domain.png",
+            },
+            {
+              url: "https://i.ibb.co/rQ6wFJG/window.png",
+            },
+            {
+              url: "https://i.ibb.co/fMYDFwx/home.png",
+            },
+            {
+              url: "https://i.ibb.co/1Zcst72/menu.png",
+            },
+            {
+              url: "https://i.ibb.co/P4GfKpt/login.png",
+            },
+            {
+              url: "https://i.ibb.co/Qk717F9/simulator.png",
+            },
+            {
+              url: "https://i.ibb.co/4pwY6xQ/load-audio.png",
+            },
+            {
+              url: "https://i.ibb.co/ZdxsJbb/loading.png",
             },
           ]
         },
