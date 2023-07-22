@@ -35,6 +35,21 @@
     text-align: left;
 }
 
+.languages-container h6{
+    margin-bottom: 20px;
+}
+
+.linguaskill-score{
+    display: flex;
+    align-items: center;
+}
+
+.linguaskill-score img{
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
 .college-card {
     padding: 0 10px;
     color: white;

@@ -4,6 +4,7 @@ import logoTodeschini from 'assets/images/todeschini.png';
 import logoWeg from 'assets/images/weg.png';
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import cnaLogo from 'assets/images/cna-logo.jpg';
+import star from 'assets/images/star.png';
 import './styles.css';
 
 const PersonalData = () => {
@@ -43,6 +44,36 @@ const PersonalData = () => {
                   </i>
                   Native
                 </h4>
+                <span className='separator'></span>
+                <h6>                  <i>
+                    <img
+                      src="https://em-content.zobj.net/thumbs/120/apple/325/flag-united-kingdom_1f1ec-1f1e7.png"
+                      alt=""
+                      style={{ height: '25px', marginRight: '8px' }}
+                    />
+                  </i>
+                  Cambrige Linguaskill Test
+                </h6>
+                <p className='linguaskill-score'>
+                  <img src={star} alt="" />
+                  Speaking: <strong style={{marginLeft:"4px"}}>180/180</strong>
+                </p>
+                <p className='linguaskill-score'>
+                  <img src={star} alt="" />
+                  Reading: 171/180
+                </p>
+                <p className='linguaskill-score'>
+                  <img src={star} alt="" />
+                  Listening: 169/180
+                </p>
+                <p className='linguaskill-score'>
+                  <img src={star} alt="" />
+                  Writing: 150/180
+                </p>
+                <p className='linguaskill-score'>
+                  <img src={star} alt="" />
+                  Average Score: 169/180
+                </p>
               </div>
                 <div className="education-container">
                   <h2>Education</h2>
