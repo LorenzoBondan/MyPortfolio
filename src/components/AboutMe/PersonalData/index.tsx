@@ -52,7 +52,7 @@ const PersonalData = () => {
                       style={{ height: '25px', marginRight: '8px' }}
                     />
                   </i>
-                  Cambrige Linguaskill Test
+                  Cambridge Linguaskill Test
                 </h6>
                 <p className='linguaskill-score'>
                   <img src={star} alt="" />

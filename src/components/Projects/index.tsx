@@ -159,6 +159,59 @@ const Projects = () => {
           ]
         },
         {
+          title: "EduLink",
+          description: "An innovative communication platform that connects schools, parents, and teachers in a collaborative and efficient environment.",
+          imgUrl: "https://i.ibb.co/h22CqRs/chat.png",
+          projectUrl: "https://github.com/LorenzoBondan/EduLink",
+          images:[
+            {
+              url: "https://i.ibb.co/h22CqRs/chat.png",
+            },
+            {
+              url: "https://i.ibb.co/MfRPBSB/chats.png",
+            },
+            {
+              url: "https://i.ibb.co/4YT4L7T/subjects-teacher-view.png",
+            },
+            {
+              url: "https://i.ibb.co/SJ0HMd6/subject-notes-teacher-view.png",
+            },
+            {
+              url: "https://i.ibb.co/JdSsdsj/subject-tests-teacher-view.png",
+            },
+            {
+              url: "https://i.ibb.co/4SsYRMt/subject-tests-teacher-add-test-view.png",
+            },
+            {
+              url: "https://i.ibb.co/h2yhXPH/subject-notes-parent-view.png",
+            },
+            {
+              url: "https://i.ibb.co/vmcV7sx/subject-tests-parent-view.png  ",
+            },
+            {
+              url: "https://i.ibb.co/8D9S2ZT/profile.png",
+            },
+            {
+              url: "https://i.ibb.co/g3crjM7/home-login.png",
+            },
+            {
+              url: "https://i.ibb.co/MRZpTh6/admin-crud-subjects.png",
+            },
+            {
+              url: "https://i.ibb.co/PNvMxH6/admin-crud-users.png",
+            },
+            {
+              url: "https://i.ibb.co/LNNyw77/admin-crud-subjects-form.png",
+            },
+            {
+              url: "https://i.ibb.co/Z1pMQRv/asta.png",
+            },
+          ]
+        },
+    ]
+
+    const projects2 = [
+        {
           title: "RecipeShare",
           description: "Share, discover and avaliate new recipes",
           imgUrl: "https://i.ibb.co/z8KLnpr/recipes.png",
@@ -199,13 +252,10 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects2 = [
         {
           title: "BarberShop",
           description: "A BarberShop where clients can create new appointments with their preferred barber at a convenient time for them.",
-          imgUrl: "https://i.ibb.co/QQtvB1r/home1.png",
+          imgUrl: "https://i.ibb.co/86FPgTZ/newappointment.png",
           projectUrl: "https://github.com/LorenzoBondan/BarberShop",
           images:[
             {
@@ -313,6 +363,9 @@ const Projects = () => {
             },
           ]
         },
+    ]
+
+    const projects3 = [
         {
           title: "High School Class",
           description: "A summary of the author's high school class",
@@ -348,9 +401,6 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects3 = [
         {
           title: "DS Catalog",
           description: "A catalog of products for sale",
@@ -405,6 +455,9 @@ const Projects = () => {
             },
           ]
         },
+    ]
+
+    const projects4 = [
         {
           title: "DS Sales",
           description: "Dashboard of sales",
@@ -416,9 +469,6 @@ const Projects = () => {
             },
           ]
         },
-    ]
-
-    const projects4 = [
         {
           title: "DS Learn",
           description: "Backend project of a programming school website",
@@ -492,7 +542,18 @@ const Projects = () => {
               url: "https://i.ibb.co/X7w5RYs/fantasma.png",
             },
           ]
-        }
+        },
+        {
+          title: "Gear Dimensioning system",
+          description: "Desktop application for gear set sizing ",
+          imgUrl: "https://i.ibb.co/8BWS0hg/psm2.png",
+          projectUrl: "https://github.com/LorenzoBondan/Software-dimensionamento-engrenagens",
+          images:[
+            {
+              url: "https://i.ibb.co/8BWS0hg/psm2.png",
+            },
+          ]
+        },
     ]
 
     return(
