@@ -124,7 +124,7 @@ const Banner = () => {
                 <h1>Hello! Welcome to my portfolio</h1>
                 <h2>{`I'm fullstack developer | `}<span className='wrap'>{text}</span></h2>
                 <p>
-                    My name is Lorenzo Bondan, I'm software engineering student and mechanical engineer.<br/>
+                    My name is Lorenzo Bondan. I'm software engineering student and mechanical engineer.<br/>
                     I am passionate about technology, especially web application development, and here I have built a summary about myself.<br/>
                     Help yourself to take a look!
                 </p>

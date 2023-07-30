@@ -14,7 +14,6 @@
     font-weight: 400;
 }
 
-/* a fonte de todo o projeto é Open Sans */
 *, *::before, *::after{
     font-family: 'Centra', sans-serif;
     margin: 0;
@@ -22,21 +21,18 @@
     box-sizing: border-box;
 }
 
-/* títulos principais do projeto estão em negrito */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-bottom: 0;
     text-decoration: none !important;
 }
 
-/* textos -> sem o sublinhado */
 a, a:hover{
     text-decoration: none !important;
     color: unset !important;
 }
 
 ul {
-    list-style-type: none; /* sem as bolinhas pretas no meio */
     margin: 0;
     padding: 0;
 }
@@ -49,21 +45,19 @@ ul {
     backdrop-filter: blur(3px);
 }
 
-/* TEXTBOX */
 .base-input {
     border-radius: 10px;
     font-size: 1em;
     letter-spacing: -0.015em;
     color: #263238;
     height: 50px;
-  }
+}
   
-  
-  .base-input::placeholder {
+.base-input::placeholder {
     color: #9E9E9E;
   }
 
-  .app-container{
+.app-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,9 +65,9 @@ ul {
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
-  }
+}
 
-  .separator{
+.separator{
     background-color: #ff0052;
     display: inline-block;
     width: 50px;

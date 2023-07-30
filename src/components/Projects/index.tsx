@@ -470,17 +470,6 @@ const Projects = () => {
           ]
         },
         {
-          title: "DS Learn",
-          description: "Backend project of a programming school website",
-          imgUrl: "https://i.ibb.co/8g1Mw0c/dslearn.png",
-          projectUrl: "https://github.com/LorenzoBondan/dslearn",
-          images:[
-            {
-              url: "https://i.ibb.co/8g1Mw0c/dslearn.png",
-            },
-          ]
-        },
-        {
           title: "Final undergraduate thesis of Mechanical Engineering",
           description: "Frequency and sound pressure level meter that generates dosimetry reports",
           imgUrl: "https://i.ibb.co/5cNyhyD/dosimetry.png",
@@ -522,28 +511,6 @@ const Projects = () => {
           ]
         },
         {
-          title: "Forniture structure automation",
-          description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
-          imgUrl: "https://i.ibb.co/TgLSn4b/pintura.png",
-          projectUrl: "https://github.com/LorenzoBondan/Estrutura-Pintura",
-          images:[
-            {
-              url: "https://i.ibb.co/TgLSn4b/pintura.png",
-            },
-          ]
-        },
-        {
-          title: "Packaging structure automation",
-          description: "C# Windows Forms CSV handling and a file return ready for import into the company's system",
-          imgUrl: "https://i.ibb.co/X7w5RYs/fantasma.png",
-          projectUrl: "https://github.com/LorenzoBondan/Estrutura-Embalagem",
-          images:[
-            {
-              url: "https://i.ibb.co/X7w5RYs/fantasma.png",
-            },
-          ]
-        },
-        {
           title: "Gear Dimensioning system",
           description: "Desktop application for gear set sizing ",
           imgUrl: "https://i.ibb.co/8BWS0hg/psm2.png",
@@ -554,12 +521,75 @@ const Projects = () => {
             },
           ]
         },
+        {
+          title: "Monthly aluminum waste disposal system",
+          description: "Desktop application for register and export the monthly aluminum waste disposal",
+          imgUrl: "https://i.ibb.co/F8VPWKK/aluminios.png",
+          projectUrl: "https://github.com/LorenzoBondan/Sistema-Descarte-Aluminios",
+          images:[
+            {
+              url: "https://i.ibb.co/F8VPWKK/aluminios.png",
+            },
+          ]
+        },
+    ]
+
+    const projects5 = [
+      {
+        title: "Forniture structure automation",
+        description: "Desktop application CSV handling and a file return ready for import into the company's system",
+        imgUrl: "https://i.ibb.co/TgLSn4b/pintura.png",
+        projectUrl: "https://github.com/LorenzoBondan/Estrutura-Pintura",
+        images:[
+          {
+            url: "https://i.ibb.co/TgLSn4b/pintura.png",
+          },
+        ]
+      },
+      {
+        title: "Packaging structure automation",
+        description: "Desktop application CSV handling and a file return ready for import into the company's system",
+        imgUrl: "https://i.ibb.co/X7w5RYs/fantasma.png",
+        projectUrl: "https://github.com/LorenzoBondan/Estrutura-Embalagem",
+        images:[
+          {
+            url: "https://i.ibb.co/X7w5RYs/fantasma.png",
+          },
+        ]
+      },
+      {
+        title: "File Comparator",
+        description: "Desktop application hat checks for the coexistence of files in folders, as well as their modification dates",
+        imgUrl: "https://i.ibb.co/V2wGK6W/comparador-arquivos.png",
+        projectUrl: "https://github.com/LorenzoBondan/CompararArquivosEntrePastas",
+        images:[
+          {
+            url: "https://i.ibb.co/V2wGK6W/comparador-arquivos.png",
+          },
+        ]
+      },
+      {
+        title: "Many VBA projects",
+        description: "Office applications developed to automatize a lot of industrial processes",
+        imgUrl: "https://i.ibb.co/YBXxVGw/estagio.png",
+        projectUrl: "https://github.com/LorenzoBondan/Visual-Basic-for-Applications",
+        images:[
+          {
+            url: "https://i.ibb.co/YBXxVGw/estagio.png",
+          },
+        ]
+      },
     ]
 
     return(
         <div className='projects-container base-card' id='projects'>
             <h2 style={{marginBottom:"0"}}>Projects</h2>
             <span className='separator'></span>
+            <ul>
+              <li>Web Applications</li>
+              <li>Desktop Applications</li>
+              <li>Office Applications</li>
+            </ul>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5" id="pills-tab">
                     <Nav.Item>
@@ -573,6 +603,9 @@ const Projects = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="fourth">Tab 4</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fifth">Tab 5</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp">
@@ -628,6 +661,22 @@ const Projects = () => {
                       <Row className='row'>
                         {
                           projects4.map((project, index) => {
+                            return (
+                              <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
+                              </div>
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fifth">
+                      <Row className='row'>
+                        {
+                          projects5.map((project, index) => {
                             return (
                               <div className="col-sm-12 col-lg-12 col-xl-6 projects-column">
                                 <ProjectCard
