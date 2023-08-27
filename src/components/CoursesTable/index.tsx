@@ -34,6 +34,12 @@ const CoursesTable = () => {
             school: "Udemy"
         },
         {
+            name: "REST API's com ASP.NET, Azure e Docker",
+            language: "C#",
+            hours: 19,
+            school: "Udemy"
+        },
+        {
             name: "VBA - Visual Basic for Applications",
             language: "Visual Basic",
             hours: 40,

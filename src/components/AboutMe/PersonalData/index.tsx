@@ -5,6 +5,7 @@ import logoWeg from 'assets/images/weg.png';
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import cnaLogo from 'assets/images/cna-logo.jpg';
 import star from 'assets/images/star.png';
+import metawayLogo from 'assets/images/metaway-logo.jpg';
 import './styles.css';
 
 const PersonalData = () => {
@@ -96,7 +97,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>Mechanical Engineering</h4>
-                          <h6>Graduated</h6>
+                          <h6>Graduated with Academic Honors 🥇</h6>
                         </div>
                       </div>
                       <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Colégio Sagrado Coração de Jesus" data-tooltip-id="tooltip-personal-data">
@@ -132,9 +133,18 @@ const PersonalData = () => {
                   <span className='separator'></span>
                   <div className="row">
                     <div className="professional-container">
+                    <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Metaway TI" data-tooltip-id="tooltip-personal-data">
+                        <div className="college-card-img">
+                          <img src={metawayLogo} alt="Metaway" />
+                        </div>
+                        <div className="college-card-content">
+                          <h4>Software Developer</h4>
+                          <h6>Since August 2023 - Now</h6>
+                        </div>
+                      </div>
                       <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Todeschini SA" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
-                          <img src={logoTodeschini} alt="UCS" />
+                          <img src={logoTodeschini} alt="Todeschini" />
                         </div>
                         <div className="college-card-content">
                           <h4>Engineering Assistent</h4>
@@ -143,7 +153,7 @@ const PersonalData = () => {
                       </div>
                       <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="WEG Cestari" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
-                          <img src={logoWeg} alt="UCS" />
+                          <img src={logoWeg} alt="Weg" />
                         </div>
                         <div className="college-card-content">
                           <h4>Engineering Trainee</h4>
