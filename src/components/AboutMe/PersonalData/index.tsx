@@ -6,6 +6,7 @@ import { Tooltip as ReactTooltip } from 'react-tooltip'
 import cnaLogo from 'assets/images/cna-logo.jpg';
 import star from 'assets/images/star.png';
 import metawayLogo from 'assets/images/metaway-logo.jpg';
+import carrerTransitionLogo from 'assets/images/carrer-transition-logo.jpeg';
 import './styles.css';
 
 const PersonalData = () => {
@@ -142,12 +143,21 @@ const PersonalData = () => {
                           <h6>Since August 2023 - Now</h6>
                         </div>
                       </div>
+                      <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Career Transition Period" data-tooltip-id="tooltip-personal-data">
+                        <div className="college-card-img">
+                          <img src={carrerTransitionLogo} alt="CareerTransition" />
+                        </div>
+                        <div className="college-card-content">
+                          <h4>Career Transition Period</h4>
+                          <h6>6 months</h6>
+                        </div>
+                      </div>
                       <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Todeschini SA" data-tooltip-id="tooltip-personal-data">
                         <div className="college-card-img">
                           <img src={logoTodeschini} alt="Todeschini" />
                         </div>
                         <div className="college-card-content">
-                          <h4>Engineering Assistent</h4>
+                          <h4>Engineering Assistant</h4>
                           <h6>1 year and 3 months</h6>
                         </div>
                       </div>
