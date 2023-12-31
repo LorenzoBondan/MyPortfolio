@@ -15,6 +15,10 @@ const Tools = () => {
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
         },
         {
+            name: "Docker",
+            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
+        },
+        {
             name: "VS Code",
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
         },

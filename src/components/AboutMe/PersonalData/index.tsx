@@ -89,7 +89,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>Software Engineering</h4>
-                          <h6>Current: 52% completed</h6>
+                          <h6>Current: 60% completed</h6>
                         </div>
                       </div>
                       <div className="college-card base-card col-sm-6 col-lg-4 col-xl-3" data-tooltip-content="Universidade de Caxias do Sul" data-tooltip-id="tooltip-personal-data">
@@ -123,7 +123,7 @@ const PersonalData = () => {
                         </div>
                         <div className="college-card-content">
                           <h4>CNA English School</h4>
-                          <h6>Platinum 2. The most advanced module</h6>
+                          <h6>Master in English</h6>
                         </div>
                       </div>
                     </div>

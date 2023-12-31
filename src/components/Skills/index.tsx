@@ -57,6 +57,10 @@ const Skills = () => {
             name: "PostgreSQL",
             imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
         },
+        {
+            name: "MongoDB",
+            imgUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+        }
     ]
 
     return(
